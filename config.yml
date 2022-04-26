@@ -1,0 +1,42 @@
+baseURL: ""
+languageCode: en-us
+title: (kei㉿Spielplatz)-[~]$ sudo _
+theme: PaperMod
+
+# googleAnalytics: 
+
+params:
+  homeInfoParams:
+    Title: "Welcome To My Blog"
+    Content: My name is __Kei__ --- This blog is a collection of notes that I took while learning and thinking out loud 💻  --- Thank you for stopping by 😊
+#  socialIcons:
+#    - name: twitter
+#      url: "https://www.twitter.com/_400BadRequest_"
+
+  env: production
+  keywords: [Blog, Ethical Hacking, Coding]
+  author: Kei
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: ""
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20    
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+
