@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Lists | (kei㉿Spielplatz)-[~]$ sudo _</title>
+<meta name="keywords" content="coding, programming, python, list, sorted, sort, count, in, indexing, slicing, append, remove, pop, for loop, iteration" />
+<meta name="description" content="Lists using square brackets [] Example of Lists  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [&#34;python&#34;, &#34;javascript&#34;, &#34;java&#34;, &#34;rust&#34;, &#34;go&#34;, &#34;dart&#34;]  print(int_list) print(type(int_list))  print(str_list) print(type(str_list))   Some of the things that I could do with lists:
+ Sort the values in ascending or descending order Find values in list or details about the list Insert or remove values from the list Get a sub-list from the list Iterate through the list and perform functions or checks on each list item    Some functions that could help me work with lists:">
+<meta name="author" content="Kei">
+<link rel="canonical" href="/posts/python-note/lists/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Lists" />
+<meta property="og:description" content="Lists using square brackets [] Example of Lists  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [&#34;python&#34;, &#34;javascript&#34;, &#34;java&#34;, &#34;rust&#34;, &#34;go&#34;, &#34;dart&#34;]  print(int_list) print(type(int_list))  print(str_list) print(type(str_list))   Some of the things that I could do with lists:
+ Sort the values in ascending or descending order Find values in list or details about the list Insert or remove values from the list Get a sub-list from the list Iterate through the list and perform functions or checks on each list item    Some functions that could help me work with lists:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/python-note/lists/" />
+<meta property="og:image" content="/images/python_logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-22T02:22:51-05:00" />
+<meta property="article:modified_time" content="2022-02-22T02:22:51-05:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="/images/python_logo.png" />
+<meta name="twitter:title" content="Lists"/>
+<meta name="twitter:description" content="Lists using square brackets [] Example of Lists  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [&#34;python&#34;, &#34;javascript&#34;, &#34;java&#34;, &#34;rust&#34;, &#34;go&#34;, &#34;dart&#34;]  print(int_list) print(type(int_list))  print(str_list) print(type(str_list))   Some of the things that I could do with lists:
+ Sort the values in ascending or descending order Find values in list or details about the list Insert or remove values from the list Get a sub-list from the list Iterate through the list and perform functions or checks on each list item    Some functions that could help me work with lists:"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Lists",
+      "item": "/posts/python-note/lists/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lists",
+  "name": "Lists",
+  "description": "Lists using square brackets [] Example of Lists  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\u0026#34;python\u0026#34;, \u0026#34;javascript\u0026#34;, \u0026#34;java\u0026#34;, \u0026#34;rust\u0026#34;, \u0026#34;go\u0026#34;, \u0026#34;dart\u0026#34;]  print(int_list) print(type(int_list))  print(str_list) print(type(str_list))   Some of the things that I could do with lists:\n Sort the values in ascending or descending order Find values in list or details about the list Insert or remove values from the list Get a sub-list from the list Iterate through the list and perform functions or checks on each list item    Some functions that could help me work with lists:",
+  "keywords": [
+    "coding", "programming", "python", "list", "sorted", "sort", "count", "in", "indexing", "slicing", "append", "remove", "pop", "for loop", "iteration"
+  ],
+  "articleBody": " Lists using square brackets [] Example of Lists  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  print(int_list) print(type(int_list))  print(str_list) print(type(str_list))   Some of the things that I could do with lists:\n Sort the values in ascending or descending order Find values in list or details about the list Insert or remove values from the list Get a sub-list from the list Iterate through the list and perform functions or checks on each list item    Some functions that could help me work with lists:\n Sort : sort(), sorted() Find : len(), min(), max(), count(), in, indexing, slicing Insert/remove : append(), insert(), extend(), remove(), pop() Sub-lists : slicing, in-place, copying Iteration : for loops, while loops    I can use dir() function to check for the built-in methods and functions available for List\n  int_list = [1, 20, 77, 800, 39, 21, 5]  print(dir(int_list))  Using sorted() function to sort a list  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  print(f\"Integers : {int_list}\") print(f\"Strings: {str_list}\")  sorted_int = sorted(int_list) sorted_str = sorted(str_list)  print(sorted_int) print(sorted_str)  Using sort method to sort a list  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  print(f\"Integers : {int_list}\") int_list.sort() print(f\"Integers : {int_list}\")  print(f\"Strings: {str_list}\") str_list.sort() print(f\"Strings: {str_list}\")  Using in to find information if a value is in a list  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  print(99 in int_list) print(\"python\" in str_list)  Using index method to find the location of a value in a list  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  print(int_list.index(800)) print(str_list.index(\"python\"))  print(int_list.index(7)) #this will throw an error  Using len() function to find the length of a list and get the last value in a list  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  print(len(int_list)) print(len(str_list))  print(int_list[len(int_list)-1])  Use min() and max() function to find the minimal or maximal value of an element  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  print(min(int_list)) print(max(int_list))  print(min(str_list)) print(max(str_list))  Using count method to find occurences of a certain value in a list  int_list = [1, 20, 77, 800, 39, 21, 5, 81, 88, 15, 81, 10, 81] str_list = [\"python\", \"javascript\", \"go\", \"java\", \"rust\", \"go\", \"dart\"]   print(int_list.count(81)) print(str_list.count(\"go\"))  Using append method to add an element to the end of a list  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]   int_list.append(81) print(int_list)  str_list.append(\"kotlin\") print(str_list)  Using insert method to add an element to a certain position in a list  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"]  int_list.insert(3,81) print(int_list)  str_list.insert(2,\"kotlin\") print(str_list)  Using extend method to add a list to another list  int_list = [1, 20, 77, 800, 39, 21, 5] new_int_list = [81, 99, 30, 9, 15, 94]  str_list = [\"python\", \"javascript\", \"java\", \"rust\", \"go\", \"dart\"] new_str_list = [\"kotlin\", \"c++\", \"assembly\", \"julia\"]   int_list.extend(new_int_list) print(int_list)  str_list.extend(new_str_list) print(str_list)  Using remove method to remove an element from a list  new_int_list = [81, 99, 30, 9, 15, 94] new_str_list = [\"kotlin\", \"c++\", \"assembly\", \"julia\"]  new_int_list.remove(99) print(new_int_list)  new_str_list.remove(\"kotlin\") print(new_str_list)  Using pop method to remove an element from a list  new_int_list = [81, 99, 30, 9, 15, 94] new_str_list = [\"kotlin\", \"c++\", \"assembly\", \"julia\"]  print(new_int_list.pop(1)) print(new_int_list)  print(new_str_list.pop(0)) print(new_str_list)  List is mutable I can use indexing to change the element, reassign it to something else  new_int_list = [81, 99, 30, 9, 15, 94] new_str_list = [\"kotlin\", \"c++\", \"assembly\", \"julia\"]  print(new_int_list[-1]) new_int_list[-1] = 100 print(new_int_list)  print(new_str_list[0]) new_str_list[0] = \"python\" print(new_str_list)  I can also work with sub-list using slicing  new_int_list = [81, 99, 30, 9, 15, 94] new_str_list = [\"kotlin\", \"c++\", \"assembly\", \"julia\"]  new_int_list[-1] = 100  print(new_int_list) print(new_int_list[:4]) print(new_int_list[1::2])  new_str_list[0] = \"python\"  print(new_str_list) print(new_str_list[1:3]) print(new_str_list[::2])  I can iterate through list, example of using for loop  new_str_list = [\"python\", \"c++\", \"assembly\", \"julia\", \"dart\", \"go\", \"javascript\"]  for element in new_str_list:  print(element) ",
+  "wordCount" : "675",
+  "inLanguage": "en",
+  "image":"/images/python_logo.png","datePublished": "2022-02-22T02:22:51-05:00",
+  "dateModified": "2022-02-22T02:22:51-05:00",
+  "author":{
+    "@type": "Person",
+    "name": "Kei"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/python-note/lists/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "(kei㉿Spielplatz)-[~]$ sudo _",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="" accesskey="h" title="(kei㉿Spielplatz)-[~]$ sudo _ (Alt + H)">(kei㉿Spielplatz)-[~]$ sudo _</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Lists
+    </h1>
+    <div class="post-meta"><span title='2022-02-22 02:22:51 -0500 EST'>February 22, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Kei
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="/images/python_logo.png" alt="python logo">
+        <p>Python</p>
+</figure>
+  <div class="post-content"><ul>
+<li><strong>Lists</strong> using square brackets []</li>
+<li>Example of Lists</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(int_list)
+</span></span><span style="display:flex;"><span>print(type(int_list))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(str_list)
+</span></span><span style="display:flex;"><span>print(type(str_list))
+</span></span></code></pre></div><p><img loading="lazy" src="example_list.png" alt="List example"  />
+</p>
+<ul>
+<li>
+<p>Some of the things that I could do with lists:</p>
+<ul>
+<li>Sort the values in ascending or descending order</li>
+<li>Find values in list or details about the list</li>
+<li>Insert or remove values from the list</li>
+<li>Get a sub-list from the list</li>
+<li>Iterate through the list and perform functions or checks on each list item</li>
+</ul>
+</li>
+<li>
+<p>Some functions that could help me work with lists:</p>
+<ul>
+<li>Sort : sort(), sorted()</li>
+<li>Find : len(), min(), max(), count(), in, indexing, slicing</li>
+<li>Insert/remove : append(), insert(), extend(), remove(), pop()</li>
+<li>Sub-lists : slicing, in-place, copying</li>
+<li>Iteration : for loops, while loops</li>
+</ul>
+</li>
+<li>
+<p>I can use <strong>dir()</strong> function to check for the built-in methods and functions available for <strong>List</strong></p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(dir(int_list))
+</span></span></code></pre></div><p><img loading="lazy" src="built-in_function.png" alt="built-in functions"  />
+</p>
+<ul>
+<li>Using <strong>sorted()</strong> function to sort a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Integers : </span><span style="color:#e6db74">{</span>int_list<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Strings: </span><span style="color:#e6db74">{</span>str_list<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sorted_int <span style="color:#f92672">=</span> sorted(int_list)
+</span></span><span style="display:flex;"><span>sorted_str <span style="color:#f92672">=</span> sorted(str_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(sorted_int)
+</span></span><span style="display:flex;"><span>print(sorted_str)
+</span></span></code></pre></div><p><img loading="lazy" src="using_sorted.png" alt="using sorted"  />
+</p>
+<ul>
+<li>Using <strong>sort</strong> method to sort a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Integers : </span><span style="color:#e6db74">{</span>int_list<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>int_list<span style="color:#f92672">.</span>sort()
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Integers : </span><span style="color:#e6db74">{</span>int_list<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Strings: </span><span style="color:#e6db74">{</span>str_list<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>str_list<span style="color:#f92672">.</span>sort()
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Strings: </span><span style="color:#e6db74">{</span>str_list<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p><img loading="lazy" src="using_sort.png" alt="using sort"  />
+</p>
+<ul>
+<li>Using <strong>in</strong> to find information if a value is in a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#ae81ff">99</span> <span style="color:#f92672">in</span> int_list)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;python&#34;</span> <span style="color:#f92672">in</span> str_list)
+</span></span></code></pre></div><p><img loading="lazy" src="using_in.png" alt="using in"  />
+</p>
+<ul>
+<li>Using <strong>index</strong> method to find the location of a value in a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>print(int_list<span style="color:#f92672">.</span>index(<span style="color:#ae81ff">800</span>))
+</span></span><span style="display:flex;"><span>print(str_list<span style="color:#f92672">.</span>index(<span style="color:#e6db74">&#34;python&#34;</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(int_list<span style="color:#f92672">.</span>index(<span style="color:#ae81ff">7</span>)) <span style="color:#75715e">#this will throw an error</span>
+</span></span></code></pre></div><p><img loading="lazy" src="using_index.png" alt="using index"  />
+</p>
+<ul>
+<li>Using <strong>len()</strong> function to find the length of a list and get the last value in a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(len(int_list))
+</span></span><span style="display:flex;"><span>print(len(str_list))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(int_list[len(int_list)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>])
+</span></span></code></pre></div><p><img loading="lazy" src="using_len.png" alt="using len"  />
+</p>
+<ul>
+<li>Use <strong>min()</strong> and <strong>max()</strong> function to find the minimal or maximal value of an element</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>print(min(int_list))
+</span></span><span style="display:flex;"><span>print(max(int_list))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(min(str_list))
+</span></span><span style="display:flex;"><span>print(max(str_list))
+</span></span></code></pre></div><p><img loading="lazy" src="using_min-max.png" alt="using min-max"  />
+</p>
+<ul>
+<li>Using <strong>count</strong> method to find occurences of a certain value in a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">81</span>, <span style="color:#ae81ff">88</span>, <span style="color:#ae81ff">15</span>, <span style="color:#ae81ff">81</span>, <span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">81</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(int_list<span style="color:#f92672">.</span>count(<span style="color:#ae81ff">81</span>))
+</span></span><span style="display:flex;"><span>print(str_list<span style="color:#f92672">.</span>count(<span style="color:#e6db74">&#34;go&#34;</span>))
+</span></span></code></pre></div><p><img loading="lazy" src="using_count.png" alt="using count"  />
+</p>
+<ul>
+<li>Using <strong>append</strong> method to add an element to the end of a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>int_list<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">81</span>)
+</span></span><span style="display:flex;"><span>print(int_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>str_list<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#34;kotlin&#34;</span>)
+</span></span><span style="display:flex;"><span>print(str_list)
+</span></span></code></pre></div><p><img loading="lazy" src="using_append.png" alt="using append"  />
+</p>
+<ul>
+<li>Using <strong>insert</strong> method to add an element to a certain position in a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>int_list<span style="color:#f92672">.</span>insert(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">81</span>)
+</span></span><span style="display:flex;"><span>print(int_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>str_list<span style="color:#f92672">.</span>insert(<span style="color:#ae81ff">2</span>,<span style="color:#e6db74">&#34;kotlin&#34;</span>)
+</span></span><span style="display:flex;"><span>print(str_list)
+</span></span></code></pre></div><p><img loading="lazy" src="using_insert.png" alt="using insert"  />
+</p>
+<ul>
+<li>Using <strong>extend</strong> method to add a list to another list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">77</span>, <span style="color:#ae81ff">800</span>, <span style="color:#ae81ff">39</span>, <span style="color:#ae81ff">21</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>new_int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">81</span>, <span style="color:#ae81ff">99</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">15</span>, <span style="color:#ae81ff">94</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>, <span style="color:#e6db74">&#34;java&#34;</span>, <span style="color:#e6db74">&#34;rust&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>]
+</span></span><span style="display:flex;"><span>new_str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;kotlin&#34;</span>, <span style="color:#e6db74">&#34;c++&#34;</span>, <span style="color:#e6db74">&#34;assembly&#34;</span>, <span style="color:#e6db74">&#34;julia&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>int_list<span style="color:#f92672">.</span>extend(new_int_list)
+</span></span><span style="display:flex;"><span>print(int_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>str_list<span style="color:#f92672">.</span>extend(new_str_list)
+</span></span><span style="display:flex;"><span>print(str_list)
+</span></span></code></pre></div><p><img loading="lazy" src="using_extend.png" alt="using extend"  />
+</p>
+<ul>
+<li>Using <strong>remove</strong> method to remove an element from a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>new_int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">81</span>, <span style="color:#ae81ff">99</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">15</span>, <span style="color:#ae81ff">94</span>]
+</span></span><span style="display:flex;"><span>new_str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;kotlin&#34;</span>, <span style="color:#e6db74">&#34;c++&#34;</span>, <span style="color:#e6db74">&#34;assembly&#34;</span>, <span style="color:#e6db74">&#34;julia&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>new_int_list<span style="color:#f92672">.</span>remove(<span style="color:#ae81ff">99</span>)
+</span></span><span style="display:flex;"><span>print(new_int_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>new_str_list<span style="color:#f92672">.</span>remove(<span style="color:#e6db74">&#34;kotlin&#34;</span>)
+</span></span><span style="display:flex;"><span>print(new_str_list)
+</span></span></code></pre></div><p><img loading="lazy" src="using_remove.png" alt="using remove"  />
+</p>
+<ul>
+<li>Using <strong>pop</strong> method to remove an element from a list</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>new_int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">81</span>, <span style="color:#ae81ff">99</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">15</span>, <span style="color:#ae81ff">94</span>]
+</span></span><span style="display:flex;"><span>new_str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;kotlin&#34;</span>, <span style="color:#e6db74">&#34;c++&#34;</span>, <span style="color:#e6db74">&#34;assembly&#34;</span>, <span style="color:#e6db74">&#34;julia&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(new_int_list<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span>print(new_int_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(new_str_list<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>))
+</span></span><span style="display:flex;"><span>print(new_str_list)
+</span></span></code></pre></div><p><img loading="lazy" src="using_pop.png" alt="using pop"  />
+</p>
+<ul>
+<li><strong>List</strong> is mutable I can use indexing to change the element, reassign it to something else</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>new_int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">81</span>, <span style="color:#ae81ff">99</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">15</span>, <span style="color:#ae81ff">94</span>]
+</span></span><span style="display:flex;"><span>new_str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;kotlin&#34;</span>, <span style="color:#e6db74">&#34;c++&#34;</span>, <span style="color:#e6db74">&#34;assembly&#34;</span>, <span style="color:#e6db74">&#34;julia&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(new_int_list[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>new_int_list[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>print(new_int_list)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(new_str_list[<span style="color:#ae81ff">0</span>])
+</span></span><span style="display:flex;"><span>new_str_list[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;python&#34;</span>
+</span></span><span style="display:flex;"><span>print(new_str_list)
+</span></span></code></pre></div><p><img loading="lazy" src="reassign_item.png" alt="reassign item"  />
+</p>
+<ul>
+<li>I can also work with sub-list using slicing</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>new_int_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">81</span>, <span style="color:#ae81ff">99</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">15</span>, <span style="color:#ae81ff">94</span>]
+</span></span><span style="display:flex;"><span>new_str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;kotlin&#34;</span>, <span style="color:#e6db74">&#34;c++&#34;</span>, <span style="color:#e6db74">&#34;assembly&#34;</span>, <span style="color:#e6db74">&#34;julia&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>new_int_list[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(new_int_list)
+</span></span><span style="display:flex;"><span>print(new_int_list[:<span style="color:#ae81ff">4</span>])
+</span></span><span style="display:flex;"><span>print(new_int_list[<span style="color:#ae81ff">1</span>::<span style="color:#ae81ff">2</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>new_str_list[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;python&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(new_str_list)
+</span></span><span style="display:flex;"><span>print(new_str_list[<span style="color:#ae81ff">1</span>:<span style="color:#ae81ff">3</span>])
+</span></span><span style="display:flex;"><span>print(new_str_list[::<span style="color:#ae81ff">2</span>])
+</span></span></code></pre></div><p><img loading="lazy" src="using_slicing.png" alt="using slicing"  />
+</p>
+<ul>
+<li>I can iterate through list, example of using <strong>for loop</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>new_str_list <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;python&#34;</span>, <span style="color:#e6db74">&#34;c++&#34;</span>, <span style="color:#e6db74">&#34;assembly&#34;</span>, <span style="color:#e6db74">&#34;julia&#34;</span>, <span style="color:#e6db74">&#34;dart&#34;</span>, <span style="color:#e6db74">&#34;go&#34;</span>, <span style="color:#e6db74">&#34;javascript&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> element <span style="color:#f92672">in</span> new_str_list:
+</span></span><span style="display:flex;"><span>    print(element)
+</span></span></code></pre></div><p><img loading="lazy" src="using_for-loop.png" alt="using for loop"  />
+</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/coding/">coding</a></li>
+      <li><a href="/tags/programming/">programming</a></li>
+      <li><a href="/tags/python/">python</a></li>
+      <li><a href="/tags/list/">list</a></li>
+      <li><a href="/tags/sorted/">sorted</a></li>
+      <li><a href="/tags/sort/">sort</a></li>
+      <li><a href="/tags/count/">count</a></li>
+      <li><a href="/tags/in/">in</a></li>
+      <li><a href="/tags/indexing/">indexing</a></li>
+      <li><a href="/tags/slicing/">slicing</a></li>
+      <li><a href="/tags/append/">append</a></li>
+      <li><a href="/tags/remove/">remove</a></li>
+      <li><a href="/tags/pop/">pop</a></li>
+      <li><a href="/tags/for-loop/">for loop</a></li>
+      <li><a href="/tags/iteration/">iteration</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/posts/python-note/dictionaries/">
+    <span class="title">« Prev Page</span>
+    <br>
+    <span>Dictionaries</span>
+  </a>
+  <a class="next" href="/posts/python-note/compound-data-types/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>Compound Data Types</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="">(kei㉿Spielplatz)-[~]$ sudo _</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

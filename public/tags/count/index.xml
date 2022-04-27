@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>count on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>/tags/count/</link>
+    <description>Recent content in count on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Feb 2022 02:22:51 -0500</lastBuildDate><atom:link href="/tags/count/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lists</title>
+      <link>/posts/python-note/lists/</link>
+      <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
+      
+      <guid>/posts/python-note/lists/</guid>
+      <description>Lists using square brackets [] Example of Lists  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [&amp;#34;python&amp;#34;, &amp;#34;javascript&amp;#34;, &amp;#34;java&amp;#34;, &amp;#34;rust&amp;#34;, &amp;#34;go&amp;#34;, &amp;#34;dart&amp;#34;]  print(int_list) print(type(int_list))  print(str_list) print(type(str_list))   Some of the things that I could do with lists:
+ Sort the values in ascending or descending order Find values in list or details about the list Insert or remove values from the list Get a sub-list from the list Iterate through the list and perform functions or checks on each list item    Some functions that could help me work with lists:</description>
+    </item>
+    
+  </channel>
+</rss>

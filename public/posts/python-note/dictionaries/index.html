@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Dictionaries | (kei㉿Spielplatz)-[~]$ sudo _</title>
+<meta name="keywords" content="coding, programming, python, dictionary, function, method, key, value" />
+<meta name="description" content="Dictionaries using key-value pair for the elements
+  Example of a Dictionary
+  animals = {  &#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;  }  I can use dir function to list the built-in methods and functions I can use to work with Dictionaries  animals = { 	&#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34; }  print(dir(animals))  I can use keys method to see all the keys in a dictionary  animals = {  &#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;  }  print(animals.">
+<meta name="author" content="Kei">
+<link rel="canonical" href="/posts/python-note/dictionaries/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Dictionaries" />
+<meta property="og:description" content="Dictionaries using key-value pair for the elements
+  Example of a Dictionary
+  animals = {  &#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;  }  I can use dir function to list the built-in methods and functions I can use to work with Dictionaries  animals = { 	&#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34; }  print(dir(animals))  I can use keys method to see all the keys in a dictionary  animals = {  &#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;  }  print(animals." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/python-note/dictionaries/" />
+<meta property="og:image" content="/images/python_logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-22T14:45:41-05:00" />
+<meta property="article:modified_time" content="2022-02-22T14:45:41-05:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="/images/python_logo.png" />
+<meta name="twitter:title" content="Dictionaries"/>
+<meta name="twitter:description" content="Dictionaries using key-value pair for the elements
+  Example of a Dictionary
+  animals = {  &#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;  }  I can use dir function to list the built-in methods and functions I can use to work with Dictionaries  animals = { 	&#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34; }  print(dir(animals))  I can use keys method to see all the keys in a dictionary  animals = {  &#34;marshmallow&#34;:&#34;a black dog who likes to bark at things&#34;,  &#34;rudolph&#34;:&#34;the very shiny red-nosed reindeer&#34;,  &#34;doraemon&#34;:&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;  }  print(animals."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Dictionaries",
+      "item": "/posts/python-note/dictionaries/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Dictionaries",
+  "name": "Dictionaries",
+  "description": "Dictionaries using key-value pair for the elements\n  Example of a Dictionary\n  animals = {  \u0026#34;marshmallow\u0026#34;:\u0026#34;a black dog who likes to bark at things\u0026#34;,  \u0026#34;rudolph\u0026#34;:\u0026#34;the very shiny red-nosed reindeer\u0026#34;,  \u0026#34;doraemon\u0026#34;:\u0026#34;a cat with a pocket to access very advanced technological stuffs from the future\u0026#34;  }  I can use dir function to list the built-in methods and functions I can use to work with Dictionaries  animals = { \t\u0026#34;marshmallow\u0026#34;:\u0026#34;a black dog who likes to bark at things\u0026#34;,  \u0026#34;rudolph\u0026#34;:\u0026#34;the very shiny red-nosed reindeer\u0026#34;,  \u0026#34;doraemon\u0026#34;:\u0026#34;a cat with a pocket to access very advanced technological stuffs from the future\u0026#34; }  print(dir(animals))  I can use keys method to see all the keys in a dictionary  animals = {  \u0026#34;marshmallow\u0026#34;:\u0026#34;a black dog who likes to bark at things\u0026#34;,  \u0026#34;rudolph\u0026#34;:\u0026#34;the very shiny red-nosed reindeer\u0026#34;,  \u0026#34;doraemon\u0026#34;:\u0026#34;a cat with a pocket to access very advanced technological stuffs from the future\u0026#34;  }  print(animals.",
+  "keywords": [
+    "coding", "programming", "python", "dictionary", "function", "method", "key", "value"
+  ],
+  "articleBody": "  Dictionaries using key-value pair for the elements\n  Example of a Dictionary\n  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  I can use dir function to list the built-in methods and functions I can use to work with Dictionaries  animals = { \t\"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\" }  print(dir(animals))  I can use keys method to see all the keys in a dictionary  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  print(animals.keys())  Similarly I can also use values method to see all the values in a dictionary  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  print(animals.values())  To see both keys and values I can use items method  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  print(animals.items())  I can access a certain value by using its key  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  print(animals) print(\"\\n\")  print(animals[\"rudolph\"]) print(\"\\n\")  print(f\"Who is Doraemon? \\nDoraemon is {animals['doraemon']}\")  I can also use get() function  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  print(animals.get('marshmallow'))  To add an item to a dictionary I can do like so  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  animals[\"sonic\"] = \"a blue hedgehog who runs extremely fast\"  print(animals)  To change the value of an item in a dictionary I can do like so  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  animals['doraemon'] = \"a cat who speaks Japanese fluently\"  print(animals)  To iterate through a dictionary I can use For loop  animals = {  \"marshmallow\":\"a black dog who likes to bark at things\",  \"rudolph\":\"the very shiny red-nosed reindeer\",  \"doraemon\":\"a cat with a pocket to access very advanced technological stuffs from the future\"  }  for key, val in animals.items():  print(key,val) ",
+  "wordCount" : "482",
+  "inLanguage": "en",
+  "image":"/images/python_logo.png","datePublished": "2022-02-22T14:45:41-05:00",
+  "dateModified": "2022-02-22T14:45:41-05:00",
+  "author":{
+    "@type": "Person",
+    "name": "Kei"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/python-note/dictionaries/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "(kei㉿Spielplatz)-[~]$ sudo _",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="" accesskey="h" title="(kei㉿Spielplatz)-[~]$ sudo _ (Alt + H)">(kei㉿Spielplatz)-[~]$ sudo _</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Dictionaries
+    </h1>
+    <div class="post-meta"><span title='2022-02-22 14:45:41 -0500 EST'>February 22, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kei
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="/images/python_logo.png" alt="python logo">
+        <p>Python</p>
+</figure>
+  <div class="post-content"><ul>
+<li>
+<p><strong>Dictionaries</strong> using key-value pair for the elements</p>
+</li>
+<li>
+<p>Example of a Dictionary</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>  	<span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p><img loading="lazy" src="example_dictionary.png" alt="a dictionary example"  />
+</p>
+<ul>
+<li>I can use <strong>dir</strong> function to list the built-in methods and functions I can use to work with Dictionaries</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>		   <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(dir(animals))
+</span></span></code></pre></div><p><img loading="lazy" src="dict_built-in_funcs.png" alt="Built-in functions"  />
+</p>
+<ul>
+<li>I can use <strong>keys</strong> method to see all the keys in a dictionary</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals<span style="color:#f92672">.</span>keys())
+</span></span></code></pre></div><p><img loading="lazy" src="all_keys.png" alt="all keys"  />
+</p>
+<ul>
+<li>Similarly I can also use <strong>values</strong> method to see all the values in a dictionary</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals<span style="color:#f92672">.</span>values())
+</span></span></code></pre></div><p><img loading="lazy" src="all_values.png" alt="all values"  />
+</p>
+<ul>
+<li>To see both keys and values I can use <strong>items</strong> method</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals<span style="color:#f92672">.</span>items())
+</span></span></code></pre></div><p><img loading="lazy" src="dict_items.png" alt="dictionary items"  />
+</p>
+<ul>
+<li>I can access a certain value by using its key</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals[<span style="color:#e6db74">&#34;rudolph&#34;</span>])
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Who is Doraemon? </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Doraemon is </span><span style="color:#e6db74">{</span>animals[<span style="color:#e6db74">&#39;doraemon&#39;</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p><img loading="lazy" src="work_with_dict.png" alt="work with dictionary"  />
+</p>
+<ul>
+<li>I can also use <strong>get()</strong> function</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;marshmallow&#39;</span>))
+</span></span></code></pre></div><p><img loading="lazy" src="using_get.png" alt="using get"  />
+</p>
+<ul>
+<li>To add an item to a dictionary I can do like so</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>animals[<span style="color:#e6db74">&#34;sonic&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;a blue hedgehog who runs extremely fast&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals)
+</span></span></code></pre></div><p><img loading="lazy" src="add_key-val.png" alt="add key-value"  />
+</p>
+<ul>
+<li>To change the value of an item in a dictionary I can do like so</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>animals[<span style="color:#e6db74">&#39;doraemon&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;a cat who speaks Japanese fluently&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(animals)
+</span></span></code></pre></div><p><img loading="lazy" src="change_value.png" alt="change value"  />
+</p>
+<ul>
+<li>To iterate through a dictionary I can use <strong>For</strong> loop</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>animals <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;marshmallow&#34;</span>:<span style="color:#e6db74">&#34;a black dog who likes to bark at things&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;rudolph&#34;</span>:<span style="color:#e6db74">&#34;the very shiny red-nosed reindeer&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;doraemon&#34;</span>:<span style="color:#e6db74">&#34;a cat with a pocket to access very advanced technological stuffs from the future&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> key, val <span style="color:#f92672">in</span> animals<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span>    print(key,val)
+</span></span></code></pre></div><p><img loading="lazy" src="dict_for-loop.png" alt="dict_for-loop"  />
+</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/coding/">coding</a></li>
+      <li><a href="/tags/programming/">programming</a></li>
+      <li><a href="/tags/python/">python</a></li>
+      <li><a href="/tags/dictionary/">dictionary</a></li>
+      <li><a href="/tags/function/">function</a></li>
+      <li><a href="/tags/method/">method</a></li>
+      <li><a href="/tags/key/">key</a></li>
+      <li><a href="/tags/value/">value</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/posts/python-note/tuples/">
+    <span class="title">« Prev Page</span>
+    <br>
+    <span>Tuples</span>
+  </a>
+  <a class="next" href="/posts/python-note/lists/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>Lists</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="">(kei㉿Spielplatz)-[~]$ sudo _</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

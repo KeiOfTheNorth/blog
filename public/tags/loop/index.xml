@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>loop on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>/tags/loop/</link>
+    <description>Recent content in loop on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Apr 2022 16:37:53 -0400</lastBuildDate><atom:link href="/tags/loop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iterators - While Loop</title>
+      <link>/posts/python-note/iterators-while-loop/</link>
+      <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
+      
+      <guid>/posts/python-note/iterators-while-loop/</guid>
+      <description>While loop can also be use for iteration but while loop is typically use when looping over some condition Example of While loop  some_condition = True  while some_condition:  print(&amp;#34;Hello World!&amp;#34;) &amp;ndash; This code will have an infinite loop, basically it will run forever until the computer crash. It will stop when I hit Ctrl + C to interrupt it, or if there is a break keyword somewhere in the code block.</description>
+    </item>
+    
+    <item>
+      <title>Iterators - For Loop</title>
+      <link>/posts/python-note/iterators-for-loop/</link>
+      <pubDate>Sun, 20 Mar 2022 10:25:22 -0400</pubDate>
+      
+      <guid>/posts/python-note/iterators-for-loop/</guid>
+      <description>I can use For loop and While loop for Iteration. They basically do about the same thing but the preferred method is using a For loop.
+  For loop is typically use when iterating over a sequence of values (like a list or dictionary).
+  Examples of Iteration using For loop:
+  some_nums = [2, 4, 88, 99, 101] for num in some_nums:  print(num) This will get the sum of all the integers value in a list :</description>
+    </item>
+    
+  </channel>
+</rss>

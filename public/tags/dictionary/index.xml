@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dictionary on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>/tags/dictionary/</link>
+    <description>Recent content in dictionary on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Feb 2022 14:45:41 -0500</lastBuildDate><atom:link href="/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dictionaries</title>
+      <link>/posts/python-note/dictionaries/</link>
+      <pubDate>Tue, 22 Feb 2022 14:45:41 -0500</pubDate>
+      
+      <guid>/posts/python-note/dictionaries/</guid>
+      <description>Dictionaries using key-value pair for the elements
+  Example of a Dictionary
+  animals = {  &amp;#34;marshmallow&amp;#34;:&amp;#34;a black dog who likes to bark at things&amp;#34;,  &amp;#34;rudolph&amp;#34;:&amp;#34;the very shiny red-nosed reindeer&amp;#34;,  &amp;#34;doraemon&amp;#34;:&amp;#34;a cat with a pocket to access very advanced technological stuffs from the future&amp;#34;  }  I can use dir function to list the built-in methods and functions I can use to work with Dictionaries  animals = { 	&amp;#34;marshmallow&amp;#34;:&amp;#34;a black dog who likes to bark at things&amp;#34;,  &amp;#34;rudolph&amp;#34;:&amp;#34;the very shiny red-nosed reindeer&amp;#34;,  &amp;#34;doraemon&amp;#34;:&amp;#34;a cat with a pocket to access very advanced technological stuffs from the future&amp;#34; }  print(dir(animals))  I can use keys method to see all the keys in a dictionary  animals = {  &amp;#34;marshmallow&amp;#34;:&amp;#34;a black dog who likes to bark at things&amp;#34;,  &amp;#34;rudolph&amp;#34;:&amp;#34;the very shiny red-nosed reindeer&amp;#34;,  &amp;#34;doraemon&amp;#34;:&amp;#34;a cat with a pocket to access very advanced technological stuffs from the future&amp;#34;  }  print(animals.</description>
+    </item>
+    
+    <item>
+      <title>Compound Data Types</title>
+      <link>/posts/python-note/compound-data-types/</link>
+      <pubDate>Sat, 19 Feb 2022 12:25:35 -0500</pubDate>
+      
+      <guid>/posts/python-note/compound-data-types/</guid>
+      <description>Compound Data Type is a data made from collection of various data types like strings, integers, etc. Compound Data Types in Python can be represented by List, Dictionary, Tuple, Set. Tools I can use to work with Compound Data Types are Iterators, For loops, While loops, and other Functions  List  Using square brackets [ ] The elements are separated by comma Maintain order of the elements Using index to access the elements Mutable, the elements can be change  [1, 2, 3, 1, True, &amp;quot;Kei&amp;quot;, &amp;quot;Mars&amp;quot;, 0.</description>
+    </item>
+    
+  </channel>
+</rss>

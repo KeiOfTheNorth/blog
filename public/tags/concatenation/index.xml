@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>concatenation on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>/tags/concatenation/</link>
+    <description>Recent content in concatenation on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Feb 2022 13:53:42 -0500</lastBuildDate><atom:link href="/tags/concatenation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strings Concatenation, Indexing, Slicing</title>
+      <link>/posts/python-note/str-concat_index_slice/</link>
+      <pubDate>Fri, 11 Feb 2022 13:53:42 -0500</pubDate>
+      
+      <guid>/posts/python-note/str-concat_index_slice/</guid>
+      <description>Concatenation  Strings can be added to each other  name = &amp;#34;Kei&amp;#34; message = &amp;#34;Good morning,&amp;#34;  print(message + name)  Strings are immutable, it can&amp;rsquo;t be changed although it can be reassigned with the same variable name but they are stored in different memory location  name = &amp;#34;Kei&amp;#34; message = &amp;#34;Good morning,&amp;#34; print(id(message))  message = message + &amp;#34; &amp;#34; + name print(id(message)) Indexing  Strings are sequence of characters therefore they can be indexed.</description>
+    </item>
+    
+  </channel>
+</rss>

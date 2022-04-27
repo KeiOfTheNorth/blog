@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>string on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>/tags/string/</link>
+    <description>Recent content in string on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 02:31:05 -0500</lastBuildDate><atom:link href="/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Type Casting</title>
+      <link>/posts/python-note/type-casting/</link>
+      <pubDate>Sat, 12 Feb 2022 02:31:05 -0500</pubDate>
+      
+      <guid>/posts/python-note/type-casting/</guid>
+      <description>Type casting is the process of converting one data type to another data type, like a string to an integer or float and vice versa. Example:  num_string1 = &amp;#34;30&amp;#34; num_string2 = &amp;#34;20&amp;#34; num_strings = num_string1 + num_string2  print(num_strings) print(type(num_strings))   nums_typecast = int(num_string1) + int(num_string2) print(nums_typecast) print(type(nums_typecast))   try_typecast = int(num_string1 + num_string2) print(try_typecast) print(type(try_typecast))   In the code above, the data type of num_string1 and num_string2 are strings so when they are added using + operator, the result will just be a string concatenation and the data type is still a string.</description>
+    </item>
+    
+    <item>
+      <title>Special Characters</title>
+      <link>/posts/python-note/special-characters/</link>
+      <pubDate>Fri, 11 Feb 2022 23:47:16 -0500</pubDate>
+      
+      <guid>/posts/python-note/special-characters/</guid>
+      <description>Special characters in strings are:  \ (Backslash) : an escape character \n : specifies new line within the string \t : adds a tab    print(&amp;#34;My name is Marshmallow. \  I wag my tail when I&amp;#39;m happy. \  I bark at speedy motorcycles \  and unwanted visitors.&amp;#34;)   print(&amp;#34;\n&amp;#34;)  print(&amp;#34;\\n&amp;#34;)  print(&amp;#34;My name is Marshmallow.\nI wag my tail when I&amp;#39;m happy.\nI bark at speedy motorcycles\nand unwanted visitors.</description>
+    </item>
+    
+    <item>
+      <title>Print Formatting</title>
+      <link>/posts/python-note/print-formatting/</link>
+      <pubDate>Fri, 11 Feb 2022 23:20:59 -0500</pubDate>
+      
+      <guid>/posts/python-note/print-formatting/</guid>
+      <description> There are several ways to output the result using print()  apples_in_basket = &amp;#34;111&amp;#34;  print(&amp;#34;There are &amp;#34; + apples_in_basket + &amp;#34; apples in the basket&amp;#34;) print(&amp;#34;There are&amp;#34;,apples_in_basket,&amp;#34;apples in the basket&amp;#34;) print(&amp;#34;There are {}apples in the basket&amp;#34;.format(apples_in_basket)) print(f&amp;#34;There are {apples_in_basket}apples in the basket&amp;#34;) </description>
+    </item>
+    
+    <item>
+      <title>String Methods and Functions</title>
+      <link>/posts/python-note/str-methods-and-functions/</link>
+      <pubDate>Fri, 11 Feb 2022 16:02:25 -0500</pubDate>
+      
+      <guid>/posts/python-note/str-methods-and-functions/</guid>
+      <description>Methods and Functions to use on Strings   The Python Standard Library is the standard library that is distributed with Python. This library reference manual is available at Python Standard Library
+  Some of the functions and methods I can use on string objects are:
+ len(), type(), id(), capitalize(), upper(), lower(), strip(), find(), split(), join()    Functions do not tied to the object. I have to type the function name followed by parentheses and pass in the object as an argument.</description>
+    </item>
+    
+    <item>
+      <title>Strings Concatenation, Indexing, Slicing</title>
+      <link>/posts/python-note/str-concat_index_slice/</link>
+      <pubDate>Fri, 11 Feb 2022 13:53:42 -0500</pubDate>
+      
+      <guid>/posts/python-note/str-concat_index_slice/</guid>
+      <description>Concatenation  Strings can be added to each other  name = &amp;#34;Kei&amp;#34; message = &amp;#34;Good morning,&amp;#34;  print(message + name)  Strings are immutable, it can&amp;rsquo;t be changed although it can be reassigned with the same variable name but they are stored in different memory location  name = &amp;#34;Kei&amp;#34; message = &amp;#34;Good morning,&amp;#34; print(id(message))  message = message + &amp;#34; &amp;#34; + name print(id(message)) Indexing  Strings are sequence of characters therefore they can be indexed.</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>/posts/python-note/strings/</link>
+      <pubDate>Fri, 11 Feb 2022 11:17:41 -0500</pubDate>
+      
+      <guid>/posts/python-note/strings/</guid>
+      <description>Strings in Python can be represented by wrapping them by using &amp;rsquo; &amp;rsquo; (single quotes), &amp;quot; &amp;ldquo;(double quotes), or &amp;rsquo;&amp;rsquo;&amp;rsquo; &amp;rsquo;&amp;rsquo;&amp;rsquo; (triple quotes)  &amp;#39;This is Hello World using single quotes.&amp;#39;  &amp;#34;This is Hello World using double quotes.&amp;#34;  &amp;#34;&amp;#34;&amp;#34;This is Hello World using triple quotes This is also called multi-line strings.&amp;#34;&amp;#34;&amp;#34;  To display the string as an output to the screen I can use Python bulit-in function, print()  print(&amp;#39;This is Hello World using single quotes.</description>
+    </item>
+    
+  </channel>
+</rss>
