@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://keiofthenorth.github.io/"
 languageCode: en-us
 title: (kei㉿Spielplatz)-[~]$ sudo _
 theme: PaperMod
@@ -11,7 +11,7 @@ params:
     Content: My name is __Kei__ --- This blog is a collection of notes that I took while learning and thinking out loud 💻  --- Thank you for stopping by 😊
 #  socialIcons:
 #    - name: twitter
-#      url: "https://www.twitter.com/_400BadRequest_"
+#      url: "#"
 
   env: production
   keywords: [Blog, Ethical Hacking, Coding]

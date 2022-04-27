@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>type casting on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>https://keiofthenorth.github.io/tags/type-casting/</link>
+    <description>Recent content in type casting on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 02:31:05 -0500</lastBuildDate><atom:link href="https://keiofthenorth.github.io/tags/type-casting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Type Casting</title>
+      <link>https://keiofthenorth.github.io/posts/python-note/type-casting/</link>
+      <pubDate>Sat, 12 Feb 2022 02:31:05 -0500</pubDate>
+      
+      <guid>https://keiofthenorth.github.io/posts/python-note/type-casting/</guid>
+      <description>Type casting is the process of converting one data type to another data type, like a string to an integer or float and vice versa. Example:  num_string1 = &amp;#34;30&amp;#34; num_string2 = &amp;#34;20&amp;#34; num_strings = num_string1 + num_string2  print(num_strings) print(type(num_strings))   nums_typecast = int(num_string1) + int(num_string2) print(nums_typecast) print(type(nums_typecast))   try_typecast = int(num_string1 + num_string2) print(try_typecast) print(type(try_typecast))   In the code above, the data type of num_string1 and num_string2 are strings so when they are added using + operator, the result will just be a string concatenation and the data type is still a string.</description>
+    </item>
+    
+  </channel>
+</rss>

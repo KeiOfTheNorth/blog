@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>input on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>https://keiofthenorth.github.io/tags/input/</link>
+    <description>Recent content in input on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 04:11:50 -0500</lastBuildDate><atom:link href="https://keiofthenorth.github.io/tags/input/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Input Function</title>
+      <link>https://keiofthenorth.github.io/posts/python-note/input-function/</link>
+      <pubDate>Sat, 12 Feb 2022 04:11:50 -0500</pubDate>
+      
+      <guid>https://keiofthenorth.github.io/posts/python-note/input-function/</guid>
+      <description> The Input function is used to take input from the user.  user = input(&amp;#34;Please enter your name: &amp;#34;)  print(50 * &amp;#34;=&amp;#34;)  print(f&amp;#34;Hello {user}, Good Morning!&amp;#34;)  first_num = input(&amp;#34;Enter a number to multiply: &amp;#34;) second_num = input(&amp;#34;Enter a second number to multiply: &amp;#34;) result = int(first_num) * int(second_num)  print(f&amp;#34;{first_num}* {second_num}= {result}&amp;#34;)  Because Python runs from top down, it will not execute the next line of code until I typed the input  </description>
+    </item>
+    
+  </channel>
+</rss>

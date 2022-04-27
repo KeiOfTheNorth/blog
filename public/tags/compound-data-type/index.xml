@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>compound data type on (kei㉿Spielplatz)-[~]$ sudo _</title>
+    <link>https://keiofthenorth.github.io/tags/compound-data-type/</link>
+    <description>Recent content in compound data type on (kei㉿Spielplatz)-[~]$ sudo _</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Feb 2022 12:25:35 -0500</lastBuildDate><atom:link href="https://keiofthenorth.github.io/tags/compound-data-type/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compound Data Types</title>
+      <link>https://keiofthenorth.github.io/posts/python-note/compound-data-types/</link>
+      <pubDate>Sat, 19 Feb 2022 12:25:35 -0500</pubDate>
+      
+      <guid>https://keiofthenorth.github.io/posts/python-note/compound-data-types/</guid>
+      <description>Compound Data Type is a data made from collection of various data types like strings, integers, etc. Compound Data Types in Python can be represented by List, Dictionary, Tuple, Set. Tools I can use to work with Compound Data Types are Iterators, For loops, While loops, and other Functions  List  Using square brackets [ ] The elements are separated by comma Maintain order of the elements Using index to access the elements Mutable, the elements can be change  [1, 2, 3, 1, True, &amp;quot;Kei&amp;quot;, &amp;quot;Mars&amp;quot;, 0.</description>
+    </item>
+    
+  </channel>
+</rss>
