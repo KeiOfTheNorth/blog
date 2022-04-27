@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on (kei㉿Spielplatz)-[~]$ sudo _</title>
-    <link>/posts/</link>
+    <link>https://400badrequest.netlify.app/posts/</link>
     <description>Recent content in Posts on (kei㉿Spielplatz)-[~]$ sudo _</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Apr 2022 16:37:53 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 16:37:53 -0400</lastBuildDate><atom:link href="https://400badrequest.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iterators - While Loop</title>
-      <link>/posts/python-note/iterators-while-loop/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/iterators-while-loop/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/posts/python-note/iterators-while-loop/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/iterators-while-loop/</guid>
       <description>While loop can also be use for iteration but while loop is typically use when looping over some condition Example of While loop  some_condition = True  while some_condition:  print(&amp;#34;Hello World!&amp;#34;) &amp;ndash; This code will have an infinite loop, basically it will run forever until the computer crash. It will stop when I hit Ctrl + C to interrupt it, or if there is a break keyword somewhere in the code block.</description>
     </item>
     
     <item>
       <title>Iterators - For Loop</title>
-      <link>/posts/python-note/iterators-for-loop/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/iterators-for-loop/</link>
       <pubDate>Sun, 20 Mar 2022 10:25:22 -0400</pubDate>
       
-      <guid>/posts/python-note/iterators-for-loop/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/iterators-for-loop/</guid>
       <description>I can use For loop and While loop for Iteration. They basically do about the same thing but the preferred method is using a For loop.
   For loop is typically use when iterating over a sequence of values (like a list or dictionary).
   Examples of Iteration using For loop:
@@ -30,19 +30,19 @@
     
     <item>
       <title>Sets</title>
-      <link>/posts/python-note/sets/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/sets/</link>
       <pubDate>Sun, 20 Mar 2022 06:28:07 -0400</pubDate>
       
-      <guid>/posts/python-note/sets/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/sets/</guid>
       <description>Sets using curly braces { } Example of a Set : mixed_set = {11, 200, 404, 30, &amp;quot;Python&amp;quot;, &amp;quot;JavaScript&amp;quot;, 99, &amp;quot;Ruby&amp;quot;, &amp;quot;Rust&amp;quot;} Sets are unordered collection of elements, meaning that everytime I run the code the order of the items/elements will be print out randomly  mixed_set = {11, 200, 404, 30, &amp;#34;Python&amp;#34;, &amp;#34;JavaScript&amp;#34;, 99, &amp;#34;Ruby&amp;#34;, &amp;#34;Rust&amp;#34;}  print(type(mixed_set))  print(mixed_set)  Sets don&amp;rsquo;t allow for duplicate elements  duplicates = {11, 11, &amp;#34;python&amp;#34;, &amp;#34;ruby&amp;#34;, 30, 9, 30, &amp;#34;python&amp;#34;}  print(duplicates)  If I have a List with some duplicates items I can cast it to a Set to remove them  duplicate_list = [&amp;#34;python&amp;#34;, &amp;#34;java&amp;#34;, &amp;#34;ruby&amp;#34;, &amp;#34;java&amp;#34;, 300, 9, 9, 300, &amp;#34;python&amp;#34;, 1, 10]  print(duplicate_list)  new_set = set(duplicate_list)  print(new_set)   Set is optimized for mainly to find information in them and for mathematical operations</description>
     </item>
     
     <item>
       <title>Tuples</title>
-      <link>/posts/python-note/tuples/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/tuples/</link>
       <pubDate>Wed, 23 Feb 2022 17:20:07 -0500</pubDate>
       
-      <guid>/posts/python-note/tuples/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/tuples/</guid>
       <description>Tuples using parentheses ( )
   Example of Tuples
   mixed_tuple = (&amp;#34;mars&amp;#34;, 11, 13, 99, &amp;#34;pluto&amp;#34;, 81, 30, &amp;#34;venus&amp;#34;) tup_str = (&amp;#34;pertama&amp;#34;, &amp;#34;kedua&amp;#34;, &amp;#34;ketiga&amp;#34;)  print(mixed_tuple) print(type(mixed_tuple))  print(tup_str) print(type(tup_str))  To list all the built-in methods and functions available for Tuple, I can use dir()  mixed_tuple = (&amp;#34;mars&amp;#34;, 11, 13, 99, &amp;#34;pluto&amp;#34;, 81, 30, &amp;#34;venus&amp;#34;)  print(dir(mixed_tuple))  Tuple works similar like List, except that Tuple is immutable.</description>
@@ -50,10 +50,10 @@
     
     <item>
       <title>Dictionaries</title>
-      <link>/posts/python-note/dictionaries/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/dictionaries/</link>
       <pubDate>Tue, 22 Feb 2022 14:45:41 -0500</pubDate>
       
-      <guid>/posts/python-note/dictionaries/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/dictionaries/</guid>
       <description>Dictionaries using key-value pair for the elements
   Example of a Dictionary
   animals = {  &amp;#34;marshmallow&amp;#34;:&amp;#34;a black dog who likes to bark at things&amp;#34;,  &amp;#34;rudolph&amp;#34;:&amp;#34;the very shiny red-nosed reindeer&amp;#34;,  &amp;#34;doraemon&amp;#34;:&amp;#34;a cat with a pocket to access very advanced technological stuffs from the future&amp;#34;  }  I can use dir function to list the built-in methods and functions I can use to work with Dictionaries  animals = { 	&amp;#34;marshmallow&amp;#34;:&amp;#34;a black dog who likes to bark at things&amp;#34;,  &amp;#34;rudolph&amp;#34;:&amp;#34;the very shiny red-nosed reindeer&amp;#34;,  &amp;#34;doraemon&amp;#34;:&amp;#34;a cat with a pocket to access very advanced technological stuffs from the future&amp;#34; }  print(dir(animals))  I can use keys method to see all the keys in a dictionary  animals = {  &amp;#34;marshmallow&amp;#34;:&amp;#34;a black dog who likes to bark at things&amp;#34;,  &amp;#34;rudolph&amp;#34;:&amp;#34;the very shiny red-nosed reindeer&amp;#34;,  &amp;#34;doraemon&amp;#34;:&amp;#34;a cat with a pocket to access very advanced technological stuffs from the future&amp;#34;  }  print(animals.</description>
@@ -61,103 +61,103 @@
     
     <item>
       <title>Lists</title>
-      <link>/posts/python-note/lists/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/lists/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/posts/python-note/lists/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/lists/</guid>
       <description>Lists using square brackets [] Example of Lists  int_list = [1, 20, 77, 800, 39, 21, 5] str_list = [&amp;#34;python&amp;#34;, &amp;#34;javascript&amp;#34;, &amp;#34;java&amp;#34;, &amp;#34;rust&amp;#34;, &amp;#34;go&amp;#34;, &amp;#34;dart&amp;#34;]  print(int_list) print(type(int_list))  print(str_list) print(type(str_list))   Some of the things that I could do with lists:
  Sort the values in ascending or descending order Find values in list or details about the list Insert or remove values from the list Get a sub-list from the list Iterate through the list and perform functions or checks on each list item    Some functions that could help me work with lists:</description>
     </item>
     
     <item>
       <title>Compound Data Types</title>
-      <link>/posts/python-note/compound-data-types/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/compound-data-types/</link>
       <pubDate>Sat, 19 Feb 2022 12:25:35 -0500</pubDate>
       
-      <guid>/posts/python-note/compound-data-types/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/compound-data-types/</guid>
       <description>Compound Data Type is a data made from collection of various data types like strings, integers, etc. Compound Data Types in Python can be represented by List, Dictionary, Tuple, Set. Tools I can use to work with Compound Data Types are Iterators, For loops, While loops, and other Functions  List  Using square brackets [ ] The elements are separated by comma Maintain order of the elements Using index to access the elements Mutable, the elements can be change  [1, 2, 3, 1, True, &amp;quot;Kei&amp;quot;, &amp;quot;Mars&amp;quot;, 0.</description>
     </item>
     
     <item>
       <title>If, Elif, Else</title>
-      <link>/posts/python-note/if-elif-else/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/if-elif-else/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/posts/python-note/if-elif-else/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/if-elif-else/</guid>
       <description>With branching using If, Elif, or Else statements I can control the execution of the code. The code block will only be executed if the condition is True.  if condition: run this code elif other_condition_occured: run this code over here not the one above else: run this code for anything else that don&amp;#39;t meet the conditions above  Example:  option = input(&amp;#34;Choose 1 to Multiply numbers, Choose 2 to Divide: &amp;#34;)  num1 = int(input(&amp;#34;Enter the first number --&amp;gt; &amp;#34;)) num2 = int(input(&amp;#34;Enter the second number --&amp;gt; &amp;#34;))  if option == &amp;#34;1&amp;#34;: 	print(f&amp;#34;{num1}multiplied by {num2}is {num1 * num2}&amp;#34;) elif option == &amp;#34;2&amp;#34;: 	print(f&amp;#34;{num1}divided by {num2}is {num1 / num2}&amp;#34;) else: 	print(&amp;#34;That&amp;#39;s an invalid selection&amp;#34;)   The usage of if, elif, and else in the code above works fine if the user choose either option 1 or 2, but it will still prompt the user to enter the first number even when the user entered something else other than 1 or 2   To fix this I can use Nested If Statements</description>
     </item>
     
     <item>
       <title>Booleans</title>
-      <link>/posts/python-note/booleans/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/booleans/</link>
       <pubDate>Sat, 12 Feb 2022 04:19:36 -0500</pubDate>
       
-      <guid>/posts/python-note/booleans/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/booleans/</guid>
       <description>  Booleans evaluate to True or False based on conditions:
  Greater than &amp;gt; Greater than or equal to &amp;gt;= Less than &amp;lt; Less than or equal to &amp;lt;= Equal to == Not equal to !=     A Truth table is used to carry out logical operations  </description>
     </item>
     
     <item>
       <title>Input Function</title>
-      <link>/posts/python-note/input-function/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/input-function/</link>
       <pubDate>Sat, 12 Feb 2022 04:11:50 -0500</pubDate>
       
-      <guid>/posts/python-note/input-function/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/input-function/</guid>
       <description> The Input function is used to take input from the user.  user = input(&amp;#34;Please enter your name: &amp;#34;)  print(50 * &amp;#34;=&amp;#34;)  print(f&amp;#34;Hello {user}, Good Morning!&amp;#34;)  first_num = input(&amp;#34;Enter a number to multiply: &amp;#34;) second_num = input(&amp;#34;Enter a second number to multiply: &amp;#34;) result = int(first_num) * int(second_num)  print(f&amp;#34;{first_num}* {second_num}= {result}&amp;#34;)  Because Python runs from top down, it will not execute the next line of code until I typed the input  </description>
     </item>
     
     <item>
       <title>Type Casting</title>
-      <link>/posts/python-note/type-casting/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/type-casting/</link>
       <pubDate>Sat, 12 Feb 2022 02:31:05 -0500</pubDate>
       
-      <guid>/posts/python-note/type-casting/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/type-casting/</guid>
       <description>Type casting is the process of converting one data type to another data type, like a string to an integer or float and vice versa. Example:  num_string1 = &amp;#34;30&amp;#34; num_string2 = &amp;#34;20&amp;#34; num_strings = num_string1 + num_string2  print(num_strings) print(type(num_strings))   nums_typecast = int(num_string1) + int(num_string2) print(nums_typecast) print(type(nums_typecast))   try_typecast = int(num_string1 + num_string2) print(try_typecast) print(type(try_typecast))   In the code above, the data type of num_string1 and num_string2 are strings so when they are added using + operator, the result will just be a string concatenation and the data type is still a string.</description>
     </item>
     
     <item>
       <title>Numbers</title>
-      <link>/posts/python-note/numbers/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/numbers/</link>
       <pubDate>Sat, 12 Feb 2022 00:46:07 -0500</pubDate>
       
-      <guid>/posts/python-note/numbers/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/numbers/</guid>
       <description>Type of Numbers :  Integers : Whole numbers Floats (Floating Point numbers) : Decimal numbers Complex numbers : Numbers that have real and imaginary parts      Some maths operations that can be done using Python are:
  Addition + : Adding numbers Subtraction - : Subtracting numbers Division / : Dividing numbers Multiplication * : Multiply numbers Exponential ** : x to the power of y Modulo % : Leftover number from division Floor division // : Returns the value of division without decimal points      Example of Floor Division //   There&amp;rsquo;s a math module that can be imported to perform mathematical operations on numbers</description>
     </item>
     
     <item>
       <title>Special Characters</title>
-      <link>/posts/python-note/special-characters/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/special-characters/</link>
       <pubDate>Fri, 11 Feb 2022 23:47:16 -0500</pubDate>
       
-      <guid>/posts/python-note/special-characters/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/special-characters/</guid>
       <description>Special characters in strings are:  \ (Backslash) : an escape character \n : specifies new line within the string \t : adds a tab    print(&amp;#34;My name is Marshmallow. \  I wag my tail when I&amp;#39;m happy. \  I bark at speedy motorcycles \  and unwanted visitors.&amp;#34;)   print(&amp;#34;\n&amp;#34;)  print(&amp;#34;\\n&amp;#34;)  print(&amp;#34;My name is Marshmallow.\nI wag my tail when I&amp;#39;m happy.\nI bark at speedy motorcycles\nand unwanted visitors.</description>
     </item>
     
     <item>
       <title>Print Formatting</title>
-      <link>/posts/python-note/print-formatting/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/print-formatting/</link>
       <pubDate>Fri, 11 Feb 2022 23:20:59 -0500</pubDate>
       
-      <guid>/posts/python-note/print-formatting/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/print-formatting/</guid>
       <description> There are several ways to output the result using print()  apples_in_basket = &amp;#34;111&amp;#34;  print(&amp;#34;There are &amp;#34; + apples_in_basket + &amp;#34; apples in the basket&amp;#34;) print(&amp;#34;There are&amp;#34;,apples_in_basket,&amp;#34;apples in the basket&amp;#34;) print(&amp;#34;There are {}apples in the basket&amp;#34;.format(apples_in_basket)) print(f&amp;#34;There are {apples_in_basket}apples in the basket&amp;#34;) </description>
     </item>
     
     <item>
       <title>Importing Module</title>
-      <link>/posts/python-note/importing-module/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/importing-module/</link>
       <pubDate>Fri, 11 Feb 2022 23:08:26 -0500</pubDate>
       
-      <guid>/posts/python-note/importing-module/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/importing-module/</guid>
       <description> To use a Python module I can import it by typing import followed by the name of the module. This will import the module with all its functions and methods  import string  print(string.ascii_lowercase)  I can just import a particular method or function in a module instead of the whole module  from string import ascii_uppercase  print(ascii_uppercase) </description>
     </item>
     
     <item>
       <title>String Methods and Functions</title>
-      <link>/posts/python-note/str-methods-and-functions/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/str-methods-and-functions/</link>
       <pubDate>Fri, 11 Feb 2022 16:02:25 -0500</pubDate>
       
-      <guid>/posts/python-note/str-methods-and-functions/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/str-methods-and-functions/</guid>
       <description>Methods and Functions to use on Strings   The Python Standard Library is the standard library that is distributed with Python. This library reference manual is available at Python Standard Library
   Some of the functions and methods I can use on string objects are:
  len(), type(), id(), capitalize(), upper(), lower(), strip(), find(), split(), join()    Functions do not tied to the object. I have to type the function name followed by parentheses and pass in the object as an argument.</description>
@@ -165,37 +165,37 @@
     
     <item>
       <title>Strings Concatenation, Indexing, Slicing</title>
-      <link>/posts/python-note/str-concat_index_slice/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/str-concat_index_slice/</link>
       <pubDate>Fri, 11 Feb 2022 13:53:42 -0500</pubDate>
       
-      <guid>/posts/python-note/str-concat_index_slice/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/str-concat_index_slice/</guid>
       <description>Concatenation  Strings can be added to each other  name = &amp;#34;Kei&amp;#34; message = &amp;#34;Good morning,&amp;#34;  print(message + name)  Strings are immutable, it can&amp;rsquo;t be changed although it can be reassigned with the same variable name but they are stored in different memory location  name = &amp;#34;Kei&amp;#34; message = &amp;#34;Good morning,&amp;#34; print(id(message))  message = message + &amp;#34; &amp;#34; + name print(id(message)) Indexing  Strings are sequence of characters therefore they can be indexed.</description>
     </item>
     
     <item>
       <title>Variables</title>
-      <link>/posts/python-note/variables/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/variables/</link>
       <pubDate>Fri, 11 Feb 2022 12:29:39 -0500</pubDate>
       
-      <guid>/posts/python-note/variables/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/variables/</guid>
       <description> Variables are memory location references which store values  morning_message = &amp;#34;Hello, Good Morning!&amp;#34;  evening_message = &amp;#34;Hello, Good Evening!&amp;#34;  print(id(morning_message)) print(morning_message)  print(id(evening_message)) print(evening_message)  Variable Name Rules :  A variable name must start with a letter or an underscore Can only contain alphanumeric characters (A-Z, a-z, 0-9) and underscores (_) Case sensitive    </description>
     </item>
     
     <item>
       <title>Strings</title>
-      <link>/posts/python-note/strings/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/strings/</link>
       <pubDate>Fri, 11 Feb 2022 11:17:41 -0500</pubDate>
       
-      <guid>/posts/python-note/strings/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/strings/</guid>
       <description>Strings in Python can be represented by wrapping them by using &amp;rsquo; &amp;rsquo; (single quotes), &amp;quot; &amp;ldquo;(double quotes), or &amp;rsquo;&amp;rsquo;&amp;rsquo; &amp;rsquo;&amp;rsquo;&amp;rsquo; (triple quotes)  &amp;#39;This is Hello World using single quotes.&amp;#39;  &amp;#34;This is Hello World using double quotes.&amp;#34;  &amp;#34;&amp;#34;&amp;#34;This is Hello World using triple quotes This is also called multi-line strings.&amp;#34;&amp;#34;&amp;#34;  To display the string as an output to the screen I can use Python bulit-in function, print()  print(&amp;#39;This is Hello World using single quotes.</description>
     </item>
     
     <item>
       <title>How to Code</title>
-      <link>/posts/how-to-code/</link>
+      <link>https://400badrequest.netlify.app/posts/how-to-code/</link>
       <pubDate>Fri, 11 Feb 2022 10:23:20 -0500</pubDate>
       
-      <guid>/posts/how-to-code/</guid>
+      <guid>https://400badrequest.netlify.app/posts/how-to-code/</guid>
       <description>Notes:  Computers really only do two things well: store values and perform operations on those values. Everything computers do can be broken down into simple operations that are performed on simple values. To learn how to code, first I have to learn to think computationally. Computational thinking is a way of thinking about problem solving that grew out of computer science. To write code, first I have to break a problem down into a simple set of actions that solves the problem.</description>
     </item>
     

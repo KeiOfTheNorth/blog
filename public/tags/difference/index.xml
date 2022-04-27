@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>difference on (kei㉿Spielplatz)-[~]$ sudo _</title>
-    <link>/tags/difference/</link>
+    <link>https://400badrequest.netlify.app/tags/difference/</link>
     <description>Recent content in difference on (kei㉿Spielplatz)-[~]$ sudo _</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Mar 2022 06:28:07 -0400</lastBuildDate><atom:link href="/tags/difference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Mar 2022 06:28:07 -0400</lastBuildDate><atom:link href="https://400badrequest.netlify.app/tags/difference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sets</title>
-      <link>/posts/python-note/sets/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/sets/</link>
       <pubDate>Sun, 20 Mar 2022 06:28:07 -0400</pubDate>
       
-      <guid>/posts/python-note/sets/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/sets/</guid>
       <description>Sets using curly braces { } Example of a Set : mixed_set = {11, 200, 404, 30, &amp;quot;Python&amp;quot;, &amp;quot;JavaScript&amp;quot;, 99, &amp;quot;Ruby&amp;quot;, &amp;quot;Rust&amp;quot;} Sets are unordered collection of elements, meaning that everytime I run the code the order of the items/elements will be print out randomly  mixed_set = {11, 200, 404, 30, &amp;#34;Python&amp;#34;, &amp;#34;JavaScript&amp;#34;, 99, &amp;#34;Ruby&amp;#34;, &amp;#34;Rust&amp;#34;}  print(type(mixed_set))  print(mixed_set)  Sets don&amp;rsquo;t allow for duplicate elements  duplicates = {11, 11, &amp;#34;python&amp;#34;, &amp;#34;ruby&amp;#34;, 30, 9, 30, &amp;#34;python&amp;#34;}  print(duplicates)  If I have a List with some duplicates items I can cast it to a Set to remove them  duplicate_list = [&amp;#34;python&amp;#34;, &amp;#34;java&amp;#34;, &amp;#34;ruby&amp;#34;, &amp;#34;java&amp;#34;, 300, 9, 9, 300, &amp;#34;python&amp;#34;, 1, 10]  print(duplicate_list)  new_set = set(duplicate_list)  print(new_set)   Set is optimized for mainly to find information in them and for mathematical operations</description>
     </item>
     

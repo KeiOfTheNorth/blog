@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>tab on (kei㉿Spielplatz)-[~]$ sudo _</title>
-    <link>/tags/tab/</link>
+    <link>https://400badrequest.netlify.app/tags/tab/</link>
     <description>Recent content in tab on (kei㉿Spielplatz)-[~]$ sudo _</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Feb 2022 23:47:16 -0500</lastBuildDate><atom:link href="/tags/tab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 23:47:16 -0500</lastBuildDate><atom:link href="https://400badrequest.netlify.app/tags/tab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Special Characters</title>
-      <link>/posts/python-note/special-characters/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/special-characters/</link>
       <pubDate>Fri, 11 Feb 2022 23:47:16 -0500</pubDate>
       
-      <guid>/posts/python-note/special-characters/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/special-characters/</guid>
       <description>Special characters in strings are:  \ (Backslash) : an escape character \n : specifies new line within the string \t : adds a tab    print(&amp;#34;My name is Marshmallow. \  I wag my tail when I&amp;#39;m happy. \  I bark at speedy motorcycles \  and unwanted visitors.&amp;#34;)   print(&amp;#34;\n&amp;#34;)  print(&amp;#34;\\n&amp;#34;)  print(&amp;#34;My name is Marshmallow.\nI wag my tail when I&amp;#39;m happy.\nI bark at speedy motorcycles\nand unwanted visitors.</description>
     </item>
     

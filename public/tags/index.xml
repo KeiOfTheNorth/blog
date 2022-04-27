@@ -2,584 +2,584 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on (kei㉿Spielplatz)-[~]$ sudo _</title>
-    <link>/tags/</link>
+    <link>https://400badrequest.netlify.app/tags/</link>
     <description>Recent content in Tags on (kei㉿Spielplatz)-[~]$ sudo _</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Apr 2022 16:37:53 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 16:37:53 -0400</lastBuildDate><atom:link href="https://400badrequest.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>coding</title>
-      <link>/tags/coding/</link>
+      <link>https://400badrequest.netlify.app/tags/coding/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/coding/</guid>
+      <guid>https://400badrequest.netlify.app/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>for</title>
-      <link>/tags/for/</link>
+      <link>https://400badrequest.netlify.app/tags/for/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/for/</guid>
+      <guid>https://400badrequest.netlify.app/tags/for/</guid>
       <description></description>
     </item>
     
     <item>
       <title>function</title>
-      <link>/tags/function/</link>
+      <link>https://400badrequest.netlify.app/tags/function/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/function/</guid>
+      <guid>https://400badrequest.netlify.app/tags/function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iteration</title>
-      <link>/tags/iteration/</link>
+      <link>https://400badrequest.netlify.app/tags/iteration/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/iteration/</guid>
+      <guid>https://400badrequest.netlify.app/tags/iteration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iterator</title>
-      <link>/tags/iterator/</link>
+      <link>https://400badrequest.netlify.app/tags/iterator/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/iterator/</guid>
+      <guid>https://400badrequest.netlify.app/tags/iterator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>len</title>
-      <link>/tags/len/</link>
+      <link>https://400badrequest.netlify.app/tags/len/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/len/</guid>
+      <guid>https://400badrequest.netlify.app/tags/len/</guid>
       <description></description>
     </item>
     
     <item>
       <title>loop</title>
-      <link>/tags/loop/</link>
+      <link>https://400badrequest.netlify.app/tags/loop/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/loop/</guid>
+      <guid>https://400badrequest.netlify.app/tags/loop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>method</title>
-      <link>/tags/method/</link>
+      <link>https://400badrequest.netlify.app/tags/method/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/method/</guid>
+      <guid>https://400badrequest.netlify.app/tags/method/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>/tags/programming/</link>
+      <link>https://400badrequest.netlify.app/tags/programming/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/programming/</guid>
+      <guid>https://400badrequest.netlify.app/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>/tags/python/</link>
+      <link>https://400badrequest.netlify.app/tags/python/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>https://400badrequest.netlify.app/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>randint</title>
-      <link>/tags/randint/</link>
+      <link>https://400badrequest.netlify.app/tags/randint/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/randint/</guid>
+      <guid>https://400badrequest.netlify.app/tags/randint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>range</title>
-      <link>/tags/range/</link>
+      <link>https://400badrequest.netlify.app/tags/range/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/range/</guid>
+      <guid>https://400badrequest.netlify.app/tags/range/</guid>
       <description></description>
     </item>
     
     <item>
       <title>while</title>
-      <link>/tags/while/</link>
+      <link>https://400badrequest.netlify.app/tags/while/</link>
       <pubDate>Sun, 10 Apr 2022 16:37:53 -0400</pubDate>
       
-      <guid>/tags/while/</guid>
+      <guid>https://400badrequest.netlify.app/tags/while/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tuple</title>
-      <link>/tags/tuple/</link>
+      <link>https://400badrequest.netlify.app/tags/tuple/</link>
       <pubDate>Sun, 20 Mar 2022 10:25:22 -0400</pubDate>
       
-      <guid>/tags/tuple/</guid>
+      <guid>https://400badrequest.netlify.app/tags/tuple/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tuple unpacking</title>
-      <link>/tags/tuple-unpacking/</link>
+      <link>https://400badrequest.netlify.app/tags/tuple-unpacking/</link>
       <pubDate>Sun, 20 Mar 2022 10:25:22 -0400</pubDate>
       
-      <guid>/tags/tuple-unpacking/</guid>
+      <guid>https://400badrequest.netlify.app/tags/tuple-unpacking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>difference</title>
-      <link>/tags/difference/</link>
+      <link>https://400badrequest.netlify.app/tags/difference/</link>
       <pubDate>Sun, 20 Mar 2022 06:28:07 -0400</pubDate>
       
-      <guid>/tags/difference/</guid>
+      <guid>https://400badrequest.netlify.app/tags/difference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>intersection</title>
-      <link>/tags/intersection/</link>
+      <link>https://400badrequest.netlify.app/tags/intersection/</link>
       <pubDate>Sun, 20 Mar 2022 06:28:07 -0400</pubDate>
       
-      <guid>/tags/intersection/</guid>
+      <guid>https://400badrequest.netlify.app/tags/intersection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>set</title>
-      <link>/tags/set/</link>
+      <link>https://400badrequest.netlify.app/tags/set/</link>
       <pubDate>Sun, 20 Mar 2022 06:28:07 -0400</pubDate>
       
-      <guid>/tags/set/</guid>
+      <guid>https://400badrequest.netlify.app/tags/set/</guid>
       <description></description>
     </item>
     
     <item>
       <title>union</title>
-      <link>/tags/union/</link>
+      <link>https://400badrequest.netlify.app/tags/union/</link>
       <pubDate>Sun, 20 Mar 2022 06:28:07 -0400</pubDate>
       
-      <guid>/tags/union/</guid>
+      <guid>https://400badrequest.netlify.app/tags/union/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dictionary</title>
-      <link>/tags/dictionary/</link>
+      <link>https://400badrequest.netlify.app/tags/dictionary/</link>
       <pubDate>Tue, 22 Feb 2022 14:45:41 -0500</pubDate>
       
-      <guid>/tags/dictionary/</guid>
+      <guid>https://400badrequest.netlify.app/tags/dictionary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>key</title>
-      <link>/tags/key/</link>
+      <link>https://400badrequest.netlify.app/tags/key/</link>
       <pubDate>Tue, 22 Feb 2022 14:45:41 -0500</pubDate>
       
-      <guid>/tags/key/</guid>
+      <guid>https://400badrequest.netlify.app/tags/key/</guid>
       <description></description>
     </item>
     
     <item>
       <title>value</title>
-      <link>/tags/value/</link>
+      <link>https://400badrequest.netlify.app/tags/value/</link>
       <pubDate>Tue, 22 Feb 2022 14:45:41 -0500</pubDate>
       
-      <guid>/tags/value/</guid>
+      <guid>https://400badrequest.netlify.app/tags/value/</guid>
       <description></description>
     </item>
     
     <item>
       <title>append</title>
-      <link>/tags/append/</link>
+      <link>https://400badrequest.netlify.app/tags/append/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/append/</guid>
+      <guid>https://400badrequest.netlify.app/tags/append/</guid>
       <description></description>
     </item>
     
     <item>
       <title>count</title>
-      <link>/tags/count/</link>
+      <link>https://400badrequest.netlify.app/tags/count/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/count/</guid>
+      <guid>https://400badrequest.netlify.app/tags/count/</guid>
       <description></description>
     </item>
     
     <item>
       <title>for loop</title>
-      <link>/tags/for-loop/</link>
+      <link>https://400badrequest.netlify.app/tags/for-loop/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/for-loop/</guid>
+      <guid>https://400badrequest.netlify.app/tags/for-loop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>in</title>
-      <link>/tags/in/</link>
+      <link>https://400badrequest.netlify.app/tags/in/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/in/</guid>
+      <guid>https://400badrequest.netlify.app/tags/in/</guid>
       <description></description>
     </item>
     
     <item>
       <title>indexing</title>
-      <link>/tags/indexing/</link>
+      <link>https://400badrequest.netlify.app/tags/indexing/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/indexing/</guid>
+      <guid>https://400badrequest.netlify.app/tags/indexing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>list</title>
-      <link>/tags/list/</link>
+      <link>https://400badrequest.netlify.app/tags/list/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/list/</guid>
+      <guid>https://400badrequest.netlify.app/tags/list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pop</title>
-      <link>/tags/pop/</link>
+      <link>https://400badrequest.netlify.app/tags/pop/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/pop/</guid>
+      <guid>https://400badrequest.netlify.app/tags/pop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>remove</title>
-      <link>/tags/remove/</link>
+      <link>https://400badrequest.netlify.app/tags/remove/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/remove/</guid>
+      <guid>https://400badrequest.netlify.app/tags/remove/</guid>
       <description></description>
     </item>
     
     <item>
       <title>slicing</title>
-      <link>/tags/slicing/</link>
+      <link>https://400badrequest.netlify.app/tags/slicing/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/slicing/</guid>
+      <guid>https://400badrequest.netlify.app/tags/slicing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sort</title>
-      <link>/tags/sort/</link>
+      <link>https://400badrequest.netlify.app/tags/sort/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/sort/</guid>
+      <guid>https://400badrequest.netlify.app/tags/sort/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sorted</title>
-      <link>/tags/sorted/</link>
+      <link>https://400badrequest.netlify.app/tags/sorted/</link>
       <pubDate>Tue, 22 Feb 2022 02:22:51 -0500</pubDate>
       
-      <guid>/tags/sorted/</guid>
+      <guid>https://400badrequest.netlify.app/tags/sorted/</guid>
       <description></description>
     </item>
     
     <item>
       <title>collection</title>
-      <link>/tags/collection/</link>
+      <link>https://400badrequest.netlify.app/tags/collection/</link>
       <pubDate>Sat, 19 Feb 2022 12:25:35 -0500</pubDate>
       
-      <guid>/tags/collection/</guid>
+      <guid>https://400badrequest.netlify.app/tags/collection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>compound data type</title>
-      <link>/tags/compound-data-type/</link>
+      <link>https://400badrequest.netlify.app/tags/compound-data-type/</link>
       <pubDate>Sat, 19 Feb 2022 12:25:35 -0500</pubDate>
       
-      <guid>/tags/compound-data-type/</guid>
+      <guid>https://400badrequest.netlify.app/tags/compound-data-type/</guid>
       <description></description>
     </item>
     
     <item>
       <title>boolean</title>
-      <link>/tags/boolean/</link>
+      <link>https://400badrequest.netlify.app/tags/boolean/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/boolean/</guid>
+      <guid>https://400badrequest.netlify.app/tags/boolean/</guid>
       <description></description>
     </item>
     
     <item>
       <title>condition</title>
-      <link>/tags/condition/</link>
+      <link>https://400badrequest.netlify.app/tags/condition/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/condition/</guid>
+      <guid>https://400badrequest.netlify.app/tags/condition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>elif</title>
-      <link>/tags/elif/</link>
+      <link>https://400badrequest.netlify.app/tags/elif/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/elif/</guid>
+      <guid>https://400badrequest.netlify.app/tags/elif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>else</title>
-      <link>/tags/else/</link>
+      <link>https://400badrequest.netlify.app/tags/else/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/else/</guid>
+      <guid>https://400badrequest.netlify.app/tags/else/</guid>
       <description></description>
     </item>
     
     <item>
       <title>if</title>
-      <link>/tags/if/</link>
+      <link>https://400badrequest.netlify.app/tags/if/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/if/</guid>
+      <guid>https://400badrequest.netlify.app/tags/if/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nested if</title>
-      <link>/tags/nested-if/</link>
+      <link>https://400badrequest.netlify.app/tags/nested-if/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/nested-if/</guid>
+      <guid>https://400badrequest.netlify.app/tags/nested-if/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ternary operator</title>
-      <link>/tags/ternary-operator/</link>
+      <link>https://400badrequest.netlify.app/tags/ternary-operator/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/ternary-operator/</guid>
+      <guid>https://400badrequest.netlify.app/tags/ternary-operator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>truth table</title>
-      <link>/tags/truth-table/</link>
+      <link>https://400badrequest.netlify.app/tags/truth-table/</link>
       <pubDate>Sat, 19 Feb 2022 10:16:13 -0500</pubDate>
       
-      <guid>/tags/truth-table/</guid>
+      <guid>https://400badrequest.netlify.app/tags/truth-table/</guid>
       <description></description>
     </item>
     
     <item>
       <title>input</title>
-      <link>/tags/input/</link>
+      <link>https://400badrequest.netlify.app/tags/input/</link>
       <pubDate>Sat, 12 Feb 2022 04:11:50 -0500</pubDate>
       
-      <guid>/tags/input/</guid>
+      <guid>https://400badrequest.netlify.app/tags/input/</guid>
       <description></description>
     </item>
     
     <item>
       <title>integer</title>
-      <link>/tags/integer/</link>
+      <link>https://400badrequest.netlify.app/tags/integer/</link>
       <pubDate>Sat, 12 Feb 2022 02:31:05 -0500</pubDate>
       
-      <guid>/tags/integer/</guid>
+      <guid>https://400badrequest.netlify.app/tags/integer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>number</title>
-      <link>/tags/number/</link>
+      <link>https://400badrequest.netlify.app/tags/number/</link>
       <pubDate>Sat, 12 Feb 2022 02:31:05 -0500</pubDate>
       
-      <guid>/tags/number/</guid>
+      <guid>https://400badrequest.netlify.app/tags/number/</guid>
       <description></description>
     </item>
     
     <item>
       <title>string</title>
-      <link>/tags/string/</link>
+      <link>https://400badrequest.netlify.app/tags/string/</link>
       <pubDate>Sat, 12 Feb 2022 02:31:05 -0500</pubDate>
       
-      <guid>/tags/string/</guid>
+      <guid>https://400badrequest.netlify.app/tags/string/</guid>
       <description></description>
     </item>
     
     <item>
       <title>type casting</title>
-      <link>/tags/type-casting/</link>
+      <link>https://400badrequest.netlify.app/tags/type-casting/</link>
       <pubDate>Sat, 12 Feb 2022 02:31:05 -0500</pubDate>
       
-      <guid>/tags/type-casting/</guid>
+      <guid>https://400badrequest.netlify.app/tags/type-casting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>complex number</title>
-      <link>/tags/complex-number/</link>
+      <link>https://400badrequest.netlify.app/tags/complex-number/</link>
       <pubDate>Sat, 12 Feb 2022 00:46:07 -0500</pubDate>
       
-      <guid>/tags/complex-number/</guid>
+      <guid>https://400badrequest.netlify.app/tags/complex-number/</guid>
       <description></description>
     </item>
     
     <item>
       <title>float</title>
-      <link>/tags/float/</link>
+      <link>https://400badrequest.netlify.app/tags/float/</link>
       <pubDate>Sat, 12 Feb 2022 00:46:07 -0500</pubDate>
       
-      <guid>/tags/float/</guid>
+      <guid>https://400badrequest.netlify.app/tags/float/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>/tags/math/</link>
+      <link>https://400badrequest.netlify.app/tags/math/</link>
       <pubDate>Sat, 12 Feb 2022 00:46:07 -0500</pubDate>
       
-      <guid>/tags/math/</guid>
+      <guid>https://400badrequest.netlify.app/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>escape character</title>
-      <link>/tags/escape-character/</link>
+      <link>https://400badrequest.netlify.app/tags/escape-character/</link>
       <pubDate>Fri, 11 Feb 2022 23:47:16 -0500</pubDate>
       
-      <guid>/tags/escape-character/</guid>
+      <guid>https://400badrequest.netlify.app/tags/escape-character/</guid>
       <description></description>
     </item>
     
     <item>
       <title>new line</title>
-      <link>/tags/new-line/</link>
+      <link>https://400badrequest.netlify.app/tags/new-line/</link>
       <pubDate>Fri, 11 Feb 2022 23:47:16 -0500</pubDate>
       
-      <guid>/tags/new-line/</guid>
+      <guid>https://400badrequest.netlify.app/tags/new-line/</guid>
       <description></description>
     </item>
     
     <item>
       <title>special character</title>
-      <link>/tags/special-character/</link>
+      <link>https://400badrequest.netlify.app/tags/special-character/</link>
       <pubDate>Fri, 11 Feb 2022 23:47:16 -0500</pubDate>
       
-      <guid>/tags/special-character/</guid>
+      <guid>https://400badrequest.netlify.app/tags/special-character/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tab</title>
-      <link>/tags/tab/</link>
+      <link>https://400badrequest.netlify.app/tags/tab/</link>
       <pubDate>Fri, 11 Feb 2022 23:47:16 -0500</pubDate>
       
-      <guid>/tags/tab/</guid>
+      <guid>https://400badrequest.netlify.app/tags/tab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>format</title>
-      <link>/tags/format/</link>
+      <link>https://400badrequest.netlify.app/tags/format/</link>
       <pubDate>Fri, 11 Feb 2022 23:20:59 -0500</pubDate>
       
-      <guid>/tags/format/</guid>
+      <guid>https://400badrequest.netlify.app/tags/format/</guid>
       <description></description>
     </item>
     
     <item>
       <title>print</title>
-      <link>/tags/print/</link>
+      <link>https://400badrequest.netlify.app/tags/print/</link>
       <pubDate>Fri, 11 Feb 2022 23:20:59 -0500</pubDate>
       
-      <guid>/tags/print/</guid>
+      <guid>https://400badrequest.netlify.app/tags/print/</guid>
       <description></description>
     </item>
     
     <item>
       <title>import</title>
-      <link>/tags/import/</link>
+      <link>https://400badrequest.netlify.app/tags/import/</link>
       <pubDate>Fri, 11 Feb 2022 23:08:26 -0500</pubDate>
       
-      <guid>/tags/import/</guid>
+      <guid>https://400badrequest.netlify.app/tags/import/</guid>
       <description></description>
     </item>
     
     <item>
       <title>module</title>
-      <link>/tags/module/</link>
+      <link>https://400badrequest.netlify.app/tags/module/</link>
       <pubDate>Fri, 11 Feb 2022 23:08:26 -0500</pubDate>
       
-      <guid>/tags/module/</guid>
+      <guid>https://400badrequest.netlify.app/tags/module/</guid>
       <description></description>
     </item>
     
     <item>
       <title>concatenation</title>
-      <link>/tags/concatenation/</link>
+      <link>https://400badrequest.netlify.app/tags/concatenation/</link>
       <pubDate>Fri, 11 Feb 2022 13:53:42 -0500</pubDate>
       
-      <guid>/tags/concatenation/</guid>
+      <guid>https://400badrequest.netlify.app/tags/concatenation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>variable</title>
-      <link>/tags/variable/</link>
+      <link>https://400badrequest.netlify.app/tags/variable/</link>
       <pubDate>Fri, 11 Feb 2022 12:29:39 -0500</pubDate>
       
-      <guid>/tags/variable/</guid>
+      <guid>https://400badrequest.netlify.app/tags/variable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algorithm</title>
-      <link>/tags/algorithm/</link>
+      <link>https://400badrequest.netlify.app/tags/algorithm/</link>
       <pubDate>Fri, 11 Feb 2022 10:23:20 -0500</pubDate>
       
-      <guid>/tags/algorithm/</guid>
+      <guid>https://400badrequest.netlify.app/tags/algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>how to code</title>
-      <link>/tags/how-to-code/</link>
+      <link>https://400badrequest.netlify.app/tags/how-to-code/</link>
       <pubDate>Fri, 11 Feb 2022 10:23:20 -0500</pubDate>
       
-      <guid>/tags/how-to-code/</guid>
+      <guid>https://400badrequest.netlify.app/tags/how-to-code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pseudocode</title>
-      <link>/tags/pseudocode/</link>
+      <link>https://400badrequest.netlify.app/tags/pseudocode/</link>
       <pubDate>Fri, 11 Feb 2022 10:23:20 -0500</pubDate>
       
-      <guid>/tags/pseudocode/</guid>
+      <guid>https://400badrequest.netlify.app/tags/pseudocode/</guid>
       <description></description>
     </item>
     

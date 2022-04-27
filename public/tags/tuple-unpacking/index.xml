@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>tuple unpacking on (kei㉿Spielplatz)-[~]$ sudo _</title>
-    <link>/tags/tuple-unpacking/</link>
+    <link>https://400badrequest.netlify.app/tags/tuple-unpacking/</link>
     <description>Recent content in tuple unpacking on (kei㉿Spielplatz)-[~]$ sudo _</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Mar 2022 10:25:22 -0400</lastBuildDate><atom:link href="/tags/tuple-unpacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Mar 2022 10:25:22 -0400</lastBuildDate><atom:link href="https://400badrequest.netlify.app/tags/tuple-unpacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iterators - For Loop</title>
-      <link>/posts/python-note/iterators-for-loop/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/iterators-for-loop/</link>
       <pubDate>Sun, 20 Mar 2022 10:25:22 -0400</pubDate>
       
-      <guid>/posts/python-note/iterators-for-loop/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/iterators-for-loop/</guid>
       <description>I can use For loop and While loop for Iteration. They basically do about the same thing but the preferred method is using a For loop.
   For loop is typically use when iterating over a sequence of values (like a list or dictionary).
   Examples of Iteration using For loop:
@@ -21,10 +21,10 @@
     
     <item>
       <title>Tuples</title>
-      <link>/posts/python-note/tuples/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/tuples/</link>
       <pubDate>Wed, 23 Feb 2022 17:20:07 -0500</pubDate>
       
-      <guid>/posts/python-note/tuples/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/tuples/</guid>
       <description>Tuples using parentheses ( )
   Example of Tuples
   mixed_tuple = (&amp;#34;mars&amp;#34;, 11, 13, 99, &amp;#34;pluto&amp;#34;, 81, 30, &amp;#34;venus&amp;#34;) tup_str = (&amp;#34;pertama&amp;#34;, &amp;#34;kedua&amp;#34;, &amp;#34;ketiga&amp;#34;)  print(mixed_tuple) print(type(mixed_tuple))  print(tup_str) print(type(tup_str))  To list all the built-in methods and functions available for Tuple, I can use dir()  mixed_tuple = (&amp;#34;mars&amp;#34;, 11, 13, 99, &amp;#34;pluto&amp;#34;, 81, 30, &amp;#34;venus&amp;#34;)  print(dir(mixed_tuple))  Tuple works similar like List, except that Tuple is immutable.</description>

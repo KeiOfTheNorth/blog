@@ -2,276 +2,276 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://400badrequest.netlify.app/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://400badrequest.netlify.app/categories/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/categories/coding/</loc>
+    <loc>https://400badrequest.netlify.app/categories/coding/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/coding/</loc>
+    <loc>https://400badrequest.netlify.app/tags/coding/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/for/</loc>
+    <loc>https://400badrequest.netlify.app/tags/for/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/function/</loc>
+    <loc>https://400badrequest.netlify.app/tags/function/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/iteration/</loc>
+    <loc>https://400badrequest.netlify.app/tags/iteration/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/iterator/</loc>
+    <loc>https://400badrequest.netlify.app/tags/iterator/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/iterators-while-loop/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/iterators-while-loop/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/len/</loc>
+    <loc>https://400badrequest.netlify.app/tags/len/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/loop/</loc>
+    <loc>https://400badrequest.netlify.app/tags/loop/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/method/</loc>
+    <loc>https://400badrequest.netlify.app/tags/method/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://400badrequest.netlify.app/posts/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/programming/</loc>
+    <loc>https://400badrequest.netlify.app/tags/programming/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/categories/programming-language/</loc>
+    <loc>https://400badrequest.netlify.app/categories/programming-language/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/python/</loc>
+    <loc>https://400badrequest.netlify.app/tags/python/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/randint/</loc>
+    <loc>https://400badrequest.netlify.app/tags/randint/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/range/</loc>
+    <loc>https://400badrequest.netlify.app/tags/range/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://400badrequest.netlify.app/tags/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/tags/while/</loc>
+    <loc>https://400badrequest.netlify.app/tags/while/</loc>
     <lastmod>2022-04-10T16:37:53-04:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/iterators-for-loop/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/iterators-for-loop/</loc>
     <lastmod>2022-03-20T10:25:22-04:00</lastmod>
   </url><url>
-    <loc>/tags/tuple/</loc>
+    <loc>https://400badrequest.netlify.app/tags/tuple/</loc>
     <lastmod>2022-03-20T10:25:22-04:00</lastmod>
   </url><url>
-    <loc>/tags/tuple-unpacking/</loc>
+    <loc>https://400badrequest.netlify.app/tags/tuple-unpacking/</loc>
     <lastmod>2022-03-20T10:25:22-04:00</lastmod>
   </url><url>
-    <loc>/tags/difference/</loc>
+    <loc>https://400badrequest.netlify.app/tags/difference/</loc>
     <lastmod>2022-03-20T06:28:07-04:00</lastmod>
   </url><url>
-    <loc>/tags/intersection/</loc>
+    <loc>https://400badrequest.netlify.app/tags/intersection/</loc>
     <lastmod>2022-03-20T06:28:07-04:00</lastmod>
   </url><url>
-    <loc>/tags/set/</loc>
+    <loc>https://400badrequest.netlify.app/tags/set/</loc>
     <lastmod>2022-03-20T06:28:07-04:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/sets/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/sets/</loc>
     <lastmod>2022-03-20T06:28:07-04:00</lastmod>
   </url><url>
-    <loc>/tags/union/</loc>
+    <loc>https://400badrequest.netlify.app/tags/union/</loc>
     <lastmod>2022-03-20T06:28:07-04:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/tuples/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/tuples/</loc>
     <lastmod>2022-02-23T17:20:07-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/dictionaries/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/dictionaries/</loc>
     <lastmod>2022-02-22T14:45:41-05:00</lastmod>
   </url><url>
-    <loc>/tags/dictionary/</loc>
+    <loc>https://400badrequest.netlify.app/tags/dictionary/</loc>
     <lastmod>2022-02-22T14:45:41-05:00</lastmod>
   </url><url>
-    <loc>/tags/key/</loc>
+    <loc>https://400badrequest.netlify.app/tags/key/</loc>
     <lastmod>2022-02-22T14:45:41-05:00</lastmod>
   </url><url>
-    <loc>/tags/value/</loc>
+    <loc>https://400badrequest.netlify.app/tags/value/</loc>
     <lastmod>2022-02-22T14:45:41-05:00</lastmod>
   </url><url>
-    <loc>/tags/append/</loc>
+    <loc>https://400badrequest.netlify.app/tags/append/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/count/</loc>
+    <loc>https://400badrequest.netlify.app/tags/count/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/for-loop/</loc>
+    <loc>https://400badrequest.netlify.app/tags/for-loop/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/in/</loc>
+    <loc>https://400badrequest.netlify.app/tags/in/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/indexing/</loc>
+    <loc>https://400badrequest.netlify.app/tags/indexing/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/list/</loc>
+    <loc>https://400badrequest.netlify.app/tags/list/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/lists/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/lists/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/pop/</loc>
+    <loc>https://400badrequest.netlify.app/tags/pop/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/remove/</loc>
+    <loc>https://400badrequest.netlify.app/tags/remove/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/slicing/</loc>
+    <loc>https://400badrequest.netlify.app/tags/slicing/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/sort/</loc>
+    <loc>https://400badrequest.netlify.app/tags/sort/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/sorted/</loc>
+    <loc>https://400badrequest.netlify.app/tags/sorted/</loc>
     <lastmod>2022-02-22T02:22:51-05:00</lastmod>
   </url><url>
-    <loc>/tags/collection/</loc>
+    <loc>https://400badrequest.netlify.app/tags/collection/</loc>
     <lastmod>2022-02-19T12:25:35-05:00</lastmod>
   </url><url>
-    <loc>/tags/compound-data-type/</loc>
+    <loc>https://400badrequest.netlify.app/tags/compound-data-type/</loc>
     <lastmod>2022-02-19T12:25:35-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/compound-data-types/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/compound-data-types/</loc>
     <lastmod>2022-02-19T12:25:35-05:00</lastmod>
   </url><url>
-    <loc>/tags/boolean/</loc>
+    <loc>https://400badrequest.netlify.app/tags/boolean/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/tags/condition/</loc>
+    <loc>https://400badrequest.netlify.app/tags/condition/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/tags/elif/</loc>
+    <loc>https://400badrequest.netlify.app/tags/elif/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/tags/else/</loc>
+    <loc>https://400badrequest.netlify.app/tags/else/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/tags/if/</loc>
+    <loc>https://400badrequest.netlify.app/tags/if/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/if-elif-else/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/if-elif-else/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/tags/nested-if/</loc>
+    <loc>https://400badrequest.netlify.app/tags/nested-if/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/tags/ternary-operator/</loc>
+    <loc>https://400badrequest.netlify.app/tags/ternary-operator/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/tags/truth-table/</loc>
+    <loc>https://400badrequest.netlify.app/tags/truth-table/</loc>
     <lastmod>2022-02-19T10:16:13-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/booleans/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/booleans/</loc>
     <lastmod>2022-02-12T04:19:36-05:00</lastmod>
   </url><url>
-    <loc>/tags/input/</loc>
+    <loc>https://400badrequest.netlify.app/tags/input/</loc>
     <lastmod>2022-02-12T04:11:50-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/input-function/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/input-function/</loc>
     <lastmod>2022-02-12T04:11:50-05:00</lastmod>
   </url><url>
-    <loc>/tags/integer/</loc>
+    <loc>https://400badrequest.netlify.app/tags/integer/</loc>
     <lastmod>2022-02-12T02:31:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/number/</loc>
+    <loc>https://400badrequest.netlify.app/tags/number/</loc>
     <lastmod>2022-02-12T02:31:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/string/</loc>
+    <loc>https://400badrequest.netlify.app/tags/string/</loc>
     <lastmod>2022-02-12T02:31:05-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/type-casting/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/type-casting/</loc>
     <lastmod>2022-02-12T02:31:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/type-casting/</loc>
+    <loc>https://400badrequest.netlify.app/tags/type-casting/</loc>
     <lastmod>2022-02-12T02:31:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/complex-number/</loc>
+    <loc>https://400badrequest.netlify.app/tags/complex-number/</loc>
     <lastmod>2022-02-12T00:46:07-05:00</lastmod>
   </url><url>
-    <loc>/tags/float/</loc>
+    <loc>https://400badrequest.netlify.app/tags/float/</loc>
     <lastmod>2022-02-12T00:46:07-05:00</lastmod>
   </url><url>
-    <loc>/tags/math/</loc>
+    <loc>https://400badrequest.netlify.app/tags/math/</loc>
     <lastmod>2022-02-12T00:46:07-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/numbers/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/numbers/</loc>
     <lastmod>2022-02-12T00:46:07-05:00</lastmod>
   </url><url>
-    <loc>/tags/escape-character/</loc>
+    <loc>https://400badrequest.netlify.app/tags/escape-character/</loc>
     <lastmod>2022-02-11T23:47:16-05:00</lastmod>
   </url><url>
-    <loc>/tags/new-line/</loc>
+    <loc>https://400badrequest.netlify.app/tags/new-line/</loc>
     <lastmod>2022-02-11T23:47:16-05:00</lastmod>
   </url><url>
-    <loc>/tags/special-character/</loc>
+    <loc>https://400badrequest.netlify.app/tags/special-character/</loc>
     <lastmod>2022-02-11T23:47:16-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/special-characters/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/special-characters/</loc>
     <lastmod>2022-02-11T23:47:16-05:00</lastmod>
   </url><url>
-    <loc>/tags/tab/</loc>
+    <loc>https://400badrequest.netlify.app/tags/tab/</loc>
     <lastmod>2022-02-11T23:47:16-05:00</lastmod>
   </url><url>
-    <loc>/tags/format/</loc>
+    <loc>https://400badrequest.netlify.app/tags/format/</loc>
     <lastmod>2022-02-11T23:20:59-05:00</lastmod>
   </url><url>
-    <loc>/tags/print/</loc>
+    <loc>https://400badrequest.netlify.app/tags/print/</loc>
     <lastmod>2022-02-11T23:20:59-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/print-formatting/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/print-formatting/</loc>
     <lastmod>2022-02-11T23:20:59-05:00</lastmod>
   </url><url>
-    <loc>/tags/import/</loc>
+    <loc>https://400badrequest.netlify.app/tags/import/</loc>
     <lastmod>2022-02-11T23:08:26-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/importing-module/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/importing-module/</loc>
     <lastmod>2022-02-11T23:08:26-05:00</lastmod>
   </url><url>
-    <loc>/tags/module/</loc>
+    <loc>https://400badrequest.netlify.app/tags/module/</loc>
     <lastmod>2022-02-11T23:08:26-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/str-methods-and-functions/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/str-methods-and-functions/</loc>
     <lastmod>2022-02-11T16:02:25-05:00</lastmod>
   </url><url>
-    <loc>/tags/concatenation/</loc>
+    <loc>https://400badrequest.netlify.app/tags/concatenation/</loc>
     <lastmod>2022-02-11T13:53:42-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/str-concat_index_slice/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/str-concat_index_slice/</loc>
     <lastmod>2022-02-11T13:53:42-05:00</lastmod>
   </url><url>
-    <loc>/tags/variable/</loc>
+    <loc>https://400badrequest.netlify.app/tags/variable/</loc>
     <lastmod>2022-02-11T12:29:39-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/variables/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/variables/</loc>
     <lastmod>2022-02-11T12:29:39-05:00</lastmod>
   </url><url>
-    <loc>/posts/python-note/strings/</loc>
+    <loc>https://400badrequest.netlify.app/posts/python-note/strings/</loc>
     <lastmod>2022-02-11T11:17:41-05:00</lastmod>
   </url><url>
-    <loc>/tags/algorithm/</loc>
+    <loc>https://400badrequest.netlify.app/tags/algorithm/</loc>
     <lastmod>2022-02-11T10:23:20-05:00</lastmod>
   </url><url>
-    <loc>/posts/how-to-code/</loc>
+    <loc>https://400badrequest.netlify.app/posts/how-to-code/</loc>
     <lastmod>2022-02-11T10:23:20-05:00</lastmod>
   </url><url>
-    <loc>/tags/how-to-code/</loc>
+    <loc>https://400badrequest.netlify.app/tags/how-to-code/</loc>
     <lastmod>2022-02-11T10:23:20-05:00</lastmod>
   </url><url>
-    <loc>/tags/pseudocode/</loc>
+    <loc>https://400badrequest.netlify.app/tags/pseudocode/</loc>
     <lastmod>2022-02-11T10:23:20-05:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://400badrequest.netlify.app/archives/</loc>
   </url>
 </urlset>

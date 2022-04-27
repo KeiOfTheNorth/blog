@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>variable on (kei㉿Spielplatz)-[~]$ sudo _</title>
-    <link>/tags/variable/</link>
+    <link>https://400badrequest.netlify.app/tags/variable/</link>
     <description>Recent content in variable on (kei㉿Spielplatz)-[~]$ sudo _</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Feb 2022 12:29:39 -0500</lastBuildDate><atom:link href="/tags/variable/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 12:29:39 -0500</lastBuildDate><atom:link href="https://400badrequest.netlify.app/tags/variable/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Variables</title>
-      <link>/posts/python-note/variables/</link>
+      <link>https://400badrequest.netlify.app/posts/python-note/variables/</link>
       <pubDate>Fri, 11 Feb 2022 12:29:39 -0500</pubDate>
       
-      <guid>/posts/python-note/variables/</guid>
+      <guid>https://400badrequest.netlify.app/posts/python-note/variables/</guid>
       <description> Variables are memory location references which store values  morning_message = &amp;#34;Hello, Good Morning!&amp;#34;  evening_message = &amp;#34;Hello, Good Evening!&amp;#34;  print(id(morning_message)) print(morning_message)  print(id(evening_message)) print(evening_message)  Variable Name Rules :  A variable name must start with a letter or an underscore Can only contain alphanumeric characters (A-Z, a-z, 0-9) and underscores (_) Case sensitive    </description>
     </item>
     
